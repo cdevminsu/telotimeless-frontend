@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/telotimeless-frontend/static/css/main.3aae0a65.css",
-    "main.js": "/telotimeless-frontend/static/js/main.2a93f850.js",
+    "main.js": "/telotimeless-frontend/static/js/main.ba0f52c1.js",
     "static/media/category.svg": "/telotimeless-frontend/static/media/category.811f069436a2d96b8b94.svg",
     "index.html": "/telotimeless-frontend/index.html",
     "static/media/reply.svg": "/telotimeless-frontend/static/media/reply.83c40c23cb7eadf211ec.svg",
     "main.3aae0a65.css.map": "/telotimeless-frontend/static/css/main.3aae0a65.css.map",
-    "main.2a93f850.js.map": "/telotimeless-frontend/static/js/main.2a93f850.js.map"
+    "main.ba0f52c1.js.map": "/telotimeless-frontend/static/js/main.ba0f52c1.js.map"
   },
   "entrypoints": [
     "static/css/main.3aae0a65.css",
-    "static/js/main.2a93f850.js"
+    "static/js/main.ba0f52c1.js"
   ]
 }
