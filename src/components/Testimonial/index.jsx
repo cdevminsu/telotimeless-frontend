@@ -12,7 +12,10 @@ export default function Testimonial() {
         <li className={activeTab === 1 ? "active" : ""}>
           <div className="cs_tab_link_in" onClick={() => handleTabClick(1)}>
             <div className="cs_testimonial_1_avatar">
-              <img src="/images/home_1/avatar_1.png" alt="Avatar" />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/home_1/avatar_1.png`}
+                alt="Avatar"
+              />
               <div className="cs_testimonial_1_avatar_right">
                 <h3 className="cs_fs_24 cs_semibold mb-0">
                   Hospitality & Leisure Business
@@ -27,7 +30,10 @@ export default function Testimonial() {
         <li className={activeTab === 2 ? "active" : ""}>
           <div className="cs_tab_link_in" onClick={() => handleTabClick(2)}>
             <div className="cs_testimonial_1_avatar">
-              <img src="/images/home_1/avatar_2.png" alt="Avatar" />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/home_1/avatar_2.png`}
+                alt="Avatar"
+              />
               <div className="cs_testimonial_1_avatar_right">
                 <h3 className="cs_fs_24 cs_semibold mb-0">Medical Tourism</h3>
                 <p className="cs_heading_color mb-0">
@@ -40,7 +46,10 @@ export default function Testimonial() {
         <li className={activeTab === 3 ? "active" : ""}>
           <div className="cs_tab_link_in" onClick={() => handleTabClick(3)}>
             <div className="cs_testimonial_1_avatar">
-              <img src="/images/home_1/avatar_3.png" alt="Avatar" />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/home_1/avatar_3.png`}
+                alt="Avatar"
+              />
               <div className="cs_testimonial_1_avatar_right">
                 <h3 className="cs_fs_24 cs_semibold mb-0">Medical Wellness</h3>
                 <p className="cs_heading_color mb-0">
@@ -54,7 +63,10 @@ export default function Testimonial() {
       <div className="cs_tab_body">
         {activeTab === 1 && (
           <div className="cs_testimonial cs_style_1">
-            <img src="/images/icons/quote.svg" alt="Icon" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/icons/quote.svg`}
+              alt="Icon"
+            />
             <p>
               Redefining comfort through premium travel experiences We partner
               with premier hotels and resorts, beginning with With Hotel in Jeju
@@ -68,7 +80,10 @@ export default function Testimonial() {
         )}
         {activeTab === 2 && (
           <div className="cs_testimonial cs_style_1">
-            <img src="/images/icons/quote.svg" alt="Icon" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/icons/quote.svg`}
+              alt="Icon"
+            />
             <p>
               Bridging borders for personalized medical care We provide
               end-to-end coordination for international patients seeking
@@ -82,7 +97,10 @@ export default function Testimonial() {
         )}
         {activeTab === 3 && (
           <div className="cs_testimonial cs_style_1">
-            <img src="/images/icons/quote.svg" alt="Icon" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/icons/quote.svg`}
+              alt="Icon"
+            />
             <p>
               Where healing meets hospitality for holistic well-being Blending
               advanced medical care with resort-level hospitality, we are

@@ -109,10 +109,13 @@ export default function Header({ logoSrc, variant }) {
             type="button"
             onClick={() => setSideNav(!sideNav)}
           >
-            <img src="/images/icons/close.svg" alt="Close" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/icons/close.svg`}
+              alt="Close"
+            />
           </button>
           <div className="cs_logo_box">
-            <img src="/images/logo.svg" alt="Logo" />
+            <img src={`${process.env.PUBLIC_URL}/images/logo.svg`} alt="Logo" />
             <div className="cs_height_15" />
             <h3 className="cs_fs_24 cs_semibold mb-0">
               Your Partner in Health and Wellness
@@ -124,19 +127,19 @@ export default function Header({ logoSrc, variant }) {
           <IconBoxStyle11
             title="Phone"
             subTitle="+82 1088698508"
-            iconSrc="/images/contact/icon_1.svg"
+            iconSrc={`${process.env.PUBLIC_URL}/images/contact/icon_1.svg`}
           />
           <Spacing md="30" lg="30" xl="30" />
           <IconBoxStyle11
             title="Email"
             subTitle="sonadorBIK@gmail.com"
-            iconSrc="/images/contact/icon_2.svg"
+            iconSrc={`${process.env.PUBLIC_URL}/images/contact/icon_2.svg`}
           />
           <Spacing md="30" lg="30" xl="30" />
           <IconBoxStyle11
             title="Location"
             subTitle="#815, 14, Dogok-ro 1-gil, Gangnam-gu, Seoul 06253, Republic of Korea"
-            iconSrc="/images/contact/icon_3.svg"
+            iconSrc={`${process.env.PUBLIC_URL}/images/contact/icon_3.svg`}
           />
           <Spacing md="60" lg="60" xl="60" />
           <Newsletter />
@@ -172,7 +175,10 @@ export default function Header({ logoSrc, variant }) {
                 type="button"
                 onClick={() => setSearchToggle(!searchToggle)}
               >
-                <img src="/images/icons/close.svg" alt="Close" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/icons/close.svg`}
+                  alt="Close"
+                />
               </button>
             </div>
           </div>

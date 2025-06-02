@@ -140,42 +140,42 @@ const departmentData = [
   {
     title: "Total Plastic Surgery",
     iconUrl: "images/home_1/1.png",
-    href: `${process.env.PUBLIC_URL}//departments/department-details`,
+    href: `${process.env.PUBLIC_URL}/departments/department-details`,
   },
   {
     title: "Partial Plastic Surgery",
     iconUrl: "images/home_1/2.png",
-    href: `${process.env.PUBLIC_URL}//departments/department-details`,
+    href: `${process.env.PUBLIC_URL}/departments/department-details`,
   },
   {
     title: "Facelift Surgery",
     iconUrl: "images/home_1/3.png",
-    href: `${process.env.PUBLIC_URL}//departments/department-details`,
+    href: `${process.env.PUBLIC_URL}/departments/department-details`,
   },
   {
     title: "Spine & Joint",
     iconUrl: "images/home_1/4.png",
-    href: `${process.env.PUBLIC_URL}//departments/department-details`,
+    href: `${process.env.PUBLIC_URL}/departments/department-details`,
   },
   {
     title: "Cardiology & Ophthalmology",
     iconUrl: "images/home_1/5.png",
-    href: `${process.env.PUBLIC_URL}//departments/department-details`,
+    href: `${process.env.PUBLIC_URL}/departments/department-details`,
   },
   {
     title: "Health Checkups",
     iconUrl: "images/home_1/6.png",
-    href: `${process.env.PUBLIC_URL}//departments/department-details`,
+    href: `${process.env.PUBLIC_URL}/departments/department-details`,
   },
   {
     title: "Cancer Treatment",
     iconUrl: "images/home_1/7.png",
-    href: `${process.env.PUBLIC_URL}//departments/department-details`,
+    href: `${process.env.PUBLIC_URL}/departments/department-details`,
   },
   {
     title: "Stem Cell Therapy",
     iconUrl: "images/home_1/8.png",
-    href: `${process.env.PUBLIC_URL}//departments/department-details`,
+    href: `${process.env.PUBLIC_URL}/departments/department-details`,
   },
 ];
 
@@ -269,8 +269,8 @@ export default function Home() {
       {/* Start Banner Section */}
       <Section>
         <Banner
-          bgUrl={`${process.env.PUBLIC_URL}images/home_1/cta_bg.svg`}
-          imgUrl={`${process.env.PUBLIC_URL}images/home_1/cta_img.png`}
+          bgUrl={`${process.env.PUBLIC_URL}/images/home_1/cta_bg.svg`}
+          imgUrl={`${process.env.PUBLIC_URL}/images/home_1/cta_img.png`}
           title="Your Health Journey Starts Here"
           subTitle="Connect with Korea’s top hospitals through our trusted concierge service"
         />
