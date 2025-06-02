@@ -14,48 +14,48 @@ import DepartmentSection from "../Section/DepartmentSection";
 import { pageTitle } from "../../helpers/PageTitle";
 const featureListData = [
   {
-    iconSrc: "/images/home_1/compassion.svg",
+    iconSrc: `${process.env.PUBLIC_URL}/images/home_1/compassion.svg`,
     title: "Compassion",
     subTitle:
       "We understand that traveling abroad for medical care can feel overwhelming. At TeloTimeless, we create a warm, caring experience where every guest feels safe, heard, and supported—before, during, and after treatment.",
   },
   {
-    iconSrc: "/images/home_1/excellence.svg",
+    iconSrc: `${process.env.PUBLIC_URL}/images/home_1/excellence.svg`,
     title: "Excellence",
     subTitle:
       "We partner only with top-tier hospitals and specialists in Korea. Through curated services and constant quality checks, we ensure that every step of your journey meets the highest standards of safety and care.",
   },
   {
-    iconSrc: "/images/home_1/integrity.svg",
+    iconSrc: `${process.env.PUBLIC_URL}/images/home_1/integrity.svg`,
     title: "Integrity",
     subTitle: `We value honesty, transparency, and ethics. From consultations to cost breakdowns, TeloTimeless ensures clear communication and always prioritizes the best interests of our clients in every decision.`,
   },
   {
-    iconSrc: "/images/home_1/respect.svg",
+    iconSrc: `${process.env.PUBLIC_URL}/images/home_1/respect.svg`,
     title: "Respect",
     subTitle:
       "We embrace all cultures, backgrounds, and beliefs. Our multilingual support and personalized services are designed to make every individual feel respected and genuinely cared for—wherever you’re from.",
   },
   {
-    iconSrc: "/images/home_1/teamwork.svg",
+    iconSrc: `${process.env.PUBLIC_URL}/images/home_1/teamwork.svg`,
     title: "Teamwork",
     subTitle:
       "Your health journey is a shared mission. We work closely with hospitals, interpreters, and our care coordinators to deliver a seamless, end-to-end experience tailored just for you.",
   },
 ];
 const brandData = [
-  { imgUrl: "images/brand_1.png", imgAlt: "Brand" },
-  { imgUrl: "images/brand_2.png", imgAlt: "Brand" },
-  { imgUrl: "images/brand_3.png", imgAlt: "Brand" },
-  { imgUrl: "images/brand_4.png", imgAlt: "Brand" },
-  { imgUrl: "images/brand_5.png", imgAlt: "Brand" },
-  { imgUrl: "images/brand_6.png", imgAlt: "Brand" },
-  { imgUrl: "images/brand_7.png", imgAlt: "Brand" },
-  { imgUrl: "images/brand_8.png", imgAlt: "Brand" },
-  { imgUrl: "images/brand_9.png", imgAlt: "Brand" },
-  { imgUrl: "images/brand_10.png", imgAlt: "Brand" },
-  { imgUrl: "images/brand_11.png", imgAlt: "Brand" },
-  { imgUrl: "images/brand_12.png", imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_1.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_2.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_3.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_4.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_5.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_6.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_7.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_8.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_9.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_10.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_11.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_12.png`, imgAlt: "Brand" },
 ];
 const faqData = [
   {
@@ -87,7 +87,7 @@ const faqData = [
 const blogData = [
   {
     title: "The Benefits of Mindfulness Meditation for Stress and Anxiety",
-    thumbUrl: "images/home_1/post_1.jpeg",
+    thumbUrl: `${process.env.PUBLIC_URL}/images/home_1/post_1.jpeg`,
     date: "May 1, 2023",
     btnText: "Learn More",
     href: "/blog/blog-details",
@@ -95,7 +95,7 @@ const blogData = [
   },
   {
     title: "Healthy Eating on a Budget: Tips and Strategies",
-    thumbUrl: "images/home_1/post_2.jpeg",
+    thumbUrl: `${process.env.PUBLIC_URL}/images/home_1/post_2.jpeg`,
     date: "May 4, 2023",
     btnText: "Learn More",
     href: "/blog/blog-details",
@@ -103,7 +103,7 @@ const blogData = [
   },
   {
     title: "The Importance of Regular Cancer Screenings and Early Detection",
-    thumbUrl: "images/home_1/post_3.jpeg",
+    thumbUrl: `${process.env.PUBLIC_URL}/images/home_1/post_3.jpeg`,
     date: "May 1, 2023",
     btnText: "Learn More",
     href: "/blog/blog-details",
@@ -115,67 +115,67 @@ const awardData = [
     title: "Malcolm Baldrige National Quality Award",
     subTitle:
       "This award recognizes healthcare organizations that have demonstrated excellence in leadership, strategic planning, customer and employee satisfaction, and operational efficiency.",
-    iconUrl: "images/icons/award.svg",
+    iconUrl: `${process.env.PUBLIC_URL}/images/icons/award.svg`,
   },
   {
     title: "HIMSS Davies Award",
     subTitle:
       "This award recognizes healthcare organizations that have used health information technology to improve patient outcomes and reduce costs.",
-    iconUrl: "images/icons/award.svg",
+    iconUrl: `${process.env.PUBLIC_URL}/images/icons/award.svg`,
   },
   {
     title: "Healthgrades National’s Best Hospital",
     subTitle:
       "This recognition is given to hospitals that have achieved high ratings for clinical quality and patient safety across multiple specialties and procedures.",
-    iconUrl: "images/icons/award.svg",
+    iconUrl: `${process.env.PUBLIC_URL}/images/icons/award.svg`,
   },
   {
     title: "Joint Commission Gold Seal of Approval",
     subTitle:
       "This recognition is given to hospitals that have met rigorous standards for patient safety and quality of care.",
-    iconUrl: "images/icons/award.svg",
+    iconUrl: `${process.env.PUBLIC_URL}/images/icons/award.svg`,
   },
 ];
 const departmentData = [
   {
     title: "Total Plastic Surgery",
     iconUrl: "images/home_1/1.png",
-    href: "/departments/department-details",
+    href: `${process.env.PUBLIC_URL}//departments/department-details`,
   },
   {
     title: "Partial Plastic Surgery",
     iconUrl: "images/home_1/2.png",
-    href: "/departments/department-details",
+    href: `${process.env.PUBLIC_URL}//departments/department-details`,
   },
   {
     title: "Facelift Surgery",
     iconUrl: "images/home_1/3.png",
-    href: "/departments/department-details",
+    href: `${process.env.PUBLIC_URL}//departments/department-details`,
   },
   {
     title: "Spine & Joint",
     iconUrl: "images/home_1/4.png",
-    href: "/departments/department-details",
+    href: `${process.env.PUBLIC_URL}//departments/department-details`,
   },
   {
     title: "Cardiology & Ophthalmology",
     iconUrl: "images/home_1/5.png",
-    href: "/departments/department-details",
+    href: `${process.env.PUBLIC_URL}//departments/department-details`,
   },
   {
     title: "Health Checkups",
     iconUrl: "images/home_1/6.png",
-    href: "/departments/department-details",
+    href: `${process.env.PUBLIC_URL}//departments/department-details`,
   },
   {
     title: "Cancer Treatment",
     iconUrl: "images/home_1/7.png",
-    href: "/departments/department-details",
+    href: `${process.env.PUBLIC_URL}//departments/department-details`,
   },
   {
     title: "Stem Cell Therapy",
     iconUrl: "images/home_1/8.png",
-    href: "/departments/department-details",
+    href: `${process.env.PUBLIC_URL}//departments/department-details`,
   },
 ];
 
@@ -186,25 +186,25 @@ export default function Home() {
       <Hero
         title="Your partner in curated health care"
         subTitle="We are committed to connecting you with Korea's top medical experts, offering tailored care and travel support for a safe, smooth healing journey."
-        bgUrl="/images/home_1/hero_bg.jpeg"
-        imgUrl="/images/home_1/hero_img.png"
+        bgUrl={`${process.env.PUBLIC_URL}/images/home_1/hero_bg.jpeg`}
+        imgUrl={`${process.env.PUBLIC_URL}/images/home_1/hero_img.png`}
         videoBtnText="See how we work"
         videoUrl="https://www.youtube.com/embed/xy2iTHUHm_g"
         infoList={[
           {
             title: "Hotline",
             subTitle: "+82 1088698508",
-            iconUrl: "/images/contact/icon_1.svg",
+            iconUrl: `${process.env.PUBLIC_URL}/images/contact/icon_1.svg`,
           },
           {
             title: "Email",
             subTitle: "sonadorBIK@gmail.com",
-            iconUrl: "/images/icons/tick.svg",
+            iconUrl: `${process.env.PUBLIC_URL}/images/icons/tick.svg`,
           },
           {
             title: "Location",
             subTitle: "Seoul, KR",
-            iconUrl: "/images/icons/pin.svg",
+            iconUrl: `${process.env.PUBLIC_URL}/images/icons/pin.svg`,
           },
         ]}
         btnText="Book Now"
@@ -225,8 +225,8 @@ export default function Home() {
       {/* Start About Section */}
       <Section>
         <AboutSection
-          imgUrl="/images/home_1/about.png"
-          spiningImgUrl="/images/home_1/about_mini.svg"
+          imgUrl={`${process.env.PUBLIC_URL}/images/home_1/about.png`}
+          spiningImgUrl={`${process.env.PUBLIC_URL}/images/home_1/about_mini.svg`}
           title="About Us"
           subTitle="TeloTimeless"
           featureList={[
@@ -243,7 +243,7 @@ export default function Home() {
       <Section topMd={185} topLg={150} topXl={110}>
         <DepartmentSection
           sectionTitle="Medical Categories"
-          bgUrl="images/home_1/department_bg.svg"
+          bgUrl={`${process.env.PUBLIC_URL}images/home_1/department_bg.svg`}
           data={departmentData}
         />
       </Section>
@@ -269,8 +269,8 @@ export default function Home() {
       {/* Start Banner Section */}
       <Section>
         <Banner
-          bgUrl="images/home_1/cta_bg.svg"
-          imgUrl="images/home_1/cta_img.png"
+          bgUrl={`${process.env.PUBLIC_URL}images/home_1/cta_bg.svg`}
+          imgUrl={`${process.env.PUBLIC_URL}images/home_1/cta_img.png`}
           title="Your Health Journey Starts Here"
           subTitle="Connect with Korea’s top hospitals through our trusted concierge service"
         />
