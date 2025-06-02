@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function ReplyWidget({ title }) {
   return (
@@ -17,7 +17,7 @@ export default function ReplyWidget({ title }) {
           cols={30}
           rows={8}
           className="cs_form_field_2"
-          defaultValue={''}
+          defaultValue={""}
         />
         <div className="cs_height_20" />
         <label className="cs_input_label cs_heading_color cs_fs_18 cs_medium">
@@ -45,8 +45,14 @@ export default function ReplyWidget({ title }) {
         <button className="cs_btn cs_style_1">
           <span>Submit</span>
           <i>
-            <img src="/images/icons/arrow_white.svg" alt="Icon" />
-            <img src="/images/icons/arrow_white.svg" alt="Icon" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+              alt="Icon"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+              alt="Icon"
+            />
           </i>
         </button>
       </form>

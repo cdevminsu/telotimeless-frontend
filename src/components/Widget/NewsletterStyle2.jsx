@@ -1,6 +1,6 @@
-import React from 'react';
-import parse from 'html-react-parser';
-import NewsletterForm from '../NewsletterForm';
+import React from "react";
+import parse from "html-react-parser";
+import NewsletterForm from "../NewsletterForm";
 
 export default function NewsletterStyle2({ title, subTitle }) {
   return (
@@ -15,7 +15,7 @@ export default function NewsletterStyle2({ title, subTitle }) {
             <NewsletterForm
               label="Your Email"
               btnText="Submit"
-              btnArrowUrl="/images/icons/arrow_white.svg"
+              btnArrowUrl={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
             />
           </div>
         </div>

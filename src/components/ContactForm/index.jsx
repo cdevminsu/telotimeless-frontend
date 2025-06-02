@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function ContactForm() {
   return (
@@ -38,7 +38,7 @@ export default function ContactForm() {
             rows={10}
             className="cs_form_field"
             placeholder="Write something..."
-            defaultValue={''}
+            defaultValue={""}
           />
           <div className="cs_height_42 cs_height_xl_25" />
         </div>
@@ -47,8 +47,14 @@ export default function ContactForm() {
           <button className="cs_btn cs_style_1">
             <span>Submit</span>
             <i>
-              <img src="/images/icons/arrow_white.svg" alt="Icon" />
-              <img src="/images/icons/arrow_white.svg" alt="Icon" />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+                alt="Icon"
+              />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+                alt="Icon"
+              />
             </i>
           </button>
         </div>

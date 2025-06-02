@@ -1,7 +1,7 @@
-import React from 'react';
-import parse from 'html-react-parser';
-import VideoModal from '../VideoModal';
-import { Link } from 'react-router-dom';
+import React from "react";
+import parse from "html-react-parser";
+import VideoModal from "../VideoModal";
+import { Link } from "react-router-dom";
 
 export default function Hero({
   title,
@@ -57,8 +57,14 @@ export default function Hero({
               <Link to={btnUrl} className="cs_btn cs_style_1">
                 <span>{btnText}</span>
                 <i>
-                  <img src="/images/icons/arrow_white.svg" alt="Icon" />
-                  <img src="/images/icons/arrow_white.svg" alt="Icon" />
+                  <img
+                    src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+                    alt="Icon"
+                  />
+                  <img
+                    src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+                    alt="Icon"
+                  />
                 </i>
               </Link>
             </div>

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function IconBoxStyle4({ title, subTitle, iconUrl, href }) {
   return (
@@ -11,8 +11,14 @@ export default function IconBoxStyle4({ title, subTitle, iconUrl, href }) {
       <p className="cs_iconbox_subtitle m-0">{subTitle}</p>
       {href && (
         <Link to={href} className="cs_iconbox_btn cs_center">
-          <img src="/images/icons/arrow_white.svg" alt="Icon" />
-          <img src="/images/icons/arrow_white.svg" alt="Icon" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+            alt="Icon"
+          />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+            alt="Icon"
+          />
         </Link>
       )}
     </div>

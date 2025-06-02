@@ -1,7 +1,7 @@
-import React from 'react';
-import SectionHeading from '../../SectionHeading';
-import Spacing from '../../Spacing';
-import Accordion from '../../Accordion';
+import React from "react";
+import SectionHeading from "../../SectionHeading";
+import Spacing from "../../Spacing";
+import Accordion from "../../Accordion";
 
 export default function FaqSectionStyle4({
   data,
@@ -28,7 +28,7 @@ export default function FaqSectionStyle4({
                   className="cs_rotate_animation"
                 />
                 <img
-                  src="/images/icons/tick.svg"
+                  src={`${process.env.PUBLIC_URL}/images/icons/tick.svg`}
                   alt="Right"
                   className="cs_right_icon"
                 />

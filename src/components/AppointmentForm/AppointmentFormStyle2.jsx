@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function AppointmentFormStyle2() {
   return (
@@ -36,8 +36,14 @@ export default function AppointmentFormStyle2() {
       <button className="cs_btn cs_style_1 w-100">
         <span>Book Now</span>
         <i>
-          <img src="/images/icons/arrow_white.svg" alt="Icon" />
-          <img src="/images/icons/arrow_white.svg" alt="Icon" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+            alt="Icon"
+          />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+            alt="Icon"
+          />
         </i>
       </button>
       <a href="#departments" className="cs_down_btn cs_center rounded-circle">

@@ -1,5 +1,5 @@
-import React from 'react';
-import NewsletterForm from '../NewsletterForm';
+import React from "react";
+import NewsletterForm from "../NewsletterForm";
 
 export default function NewsletterStyle3({ title, subTitle, imgUrl }) {
   return (
@@ -21,7 +21,7 @@ export default function NewsletterStyle3({ title, subTitle, imgUrl }) {
             {title && <h2 className="cs_newsletter_title cs_fs_72">{title}</h2>}
             <NewsletterForm
               btnText="Submit"
-              btnArrowUrl="/images/icons/arrow_white.svg"
+              btnArrowUrl={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
             />
           </div>
         </div>

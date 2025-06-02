@@ -1,5 +1,5 @@
-import React from 'react';
-import Spacing from '../../Spacing';
+import React from "react";
+import Spacing from "../../Spacing";
 
 export default function AboutSection({
   imgUrl,
@@ -23,7 +23,7 @@ export default function AboutSection({
                   className="cs_rotate_animation"
                 />
                 <img
-                  src="/images/icons/tick.svg"
+                  src={`${process.env.PUBLIC_URL}/images/icons/tick.svg`}
                   alt="Right"
                   className="cs_right_icon"
                 />

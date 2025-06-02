@@ -1,6 +1,6 @@
-import React from 'react';
-import Spacing from '../../Spacing';
-import parse from 'html-react-parser';
+import React from "react";
+import Spacing from "../../Spacing";
+import parse from "html-react-parser";
 
 export default function AboutSectionStyle4({
   imgUrl,
@@ -24,7 +24,7 @@ export default function AboutSectionStyle4({
                   className="cs_rotate_animation"
                 />
                 <img
-                  src="/images/icons/tick.svg"
+                  src={`${process.env.PUBLIC_URL}/images/icons/tick.svg`}
                   alt="Right"
                   className="cs_right_icon"
                 />

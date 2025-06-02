@@ -1,7 +1,7 @@
-import { Icon } from '@iconify/react';
-import React, { useState } from 'react';
-import DatePicker from 'react-datepicker';
-import 'react-datepicker/dist/react-datepicker.css';
+import { Icon } from "@iconify/react";
+import React, { useState } from "react";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 export default function AppointmentForm() {
   const [selectedDate, setSelectedDate] = useState(null);
@@ -40,7 +40,7 @@ export default function AppointmentForm() {
         <div className="cs_with_icon_input">
           <DatePicker
             selected={selectedDate}
-            onChange={date => setSelectedDate(date)}
+            onChange={(date) => setSelectedDate(date)}
             dateFormat="dd/MM/yyyy"
             minDate={new Date()}
             isClearable
@@ -172,8 +172,14 @@ export default function AppointmentForm() {
         <button className="cs_btn cs_style_1">
           <span>Submit</span>
           <i>
-            <img src="/images/icons/arrow_white.svg" alt="Icon" />
-            <img src="/images/icons/arrow_white.svg" alt="Icon" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+              alt="Icon"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+              alt="Icon"
+            />
           </i>
         </button>
       </div>

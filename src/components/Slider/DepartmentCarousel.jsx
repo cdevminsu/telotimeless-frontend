@@ -30,7 +30,10 @@ export default function DepartmentCarousel({ data }) {
       aria-hidden="true"
       aria-disabled={currentSlide === slideCount - 1 ? true : false}
     >
-      <img src={`${process.env.PUBLIC_URL}/`} alt="Icon" />
+      <img
+        src={`${process.env.PUBLIC_URL}/images/icons/right_arrow_blue.svg`}
+        alt="Icon"
+      />
     </div>
   );
   const settings = {

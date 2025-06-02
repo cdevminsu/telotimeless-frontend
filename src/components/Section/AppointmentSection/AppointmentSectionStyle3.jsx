@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function AppointmentSectionStyle3({ title }) {
   return (
@@ -33,8 +33,14 @@ export default function AppointmentSectionStyle3({ title }) {
             <button className="cs_btn cs_style_1">
               <span>Book Now</span>
               <i>
-                <img src="/images/icons/arrow_white.svg" alt="Icon" />
-                <img src="/images/icons/arrow_white.svg" alt="Icon" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+                  alt="Icon"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+                  alt="Icon"
+                />
               </i>
             </button>
           </div>
@@ -108,8 +114,14 @@ export default function AppointmentSectionStyle3({ title }) {
           <button className="cs_btn cs_style_1">
             <span>Book Now</span>
             <i>
-              <img src="/images/icons/arrow_white.svg" alt="Icon" />
-              <img src="/images/icons/arrow_white.svg" alt="Icon" />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+                alt="Icon"
+              />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/icons/arrow_white.svg`}
+                alt="Icon"
+              />
             </i>
           </button>
         </div>
