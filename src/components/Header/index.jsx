@@ -46,10 +46,17 @@ export default function Header({ logoSrc, variant }) {
                     }`}
                   >
                     <li className="menu-item">
-                      <Link to="/">Home</Link>
+                      <Link to="/" onClick={() => setMobileToggle(false)}>
+                        Home
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/contact">Contact</Link>
+                      <Link
+                        to="/contact"
+                        onClick={() => setMobileToggle(false)}
+                      >
+                        Contact
+                      </Link>
                     </li>
                   </ul>
                   <span
