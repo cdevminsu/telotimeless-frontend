@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Slider from 'react-slick';
+import React from "react";
+import { Link } from "react-router-dom";
+import Slider from "react-slick";
 
 export default function DepartmentCarousel({ data }) {
   /** Slider Settings **/
@@ -8,26 +8,29 @@ export default function DepartmentCarousel({ data }) {
     <div
       {...props}
       className={
-        'cs_slider_prev cs_center' +
-        (currentSlide === 0 ? ' slick-disabled' : '')
+        "cs_slider_prev cs_center" +
+        (currentSlide === 0 ? " slick-disabled" : "")
       }
       aria-hidden="true"
       aria-disabled={currentSlide === 0 ? true : false}
     >
-      <img src="images/icons/left_arrow_blue.svg" alt="Icon" />
+      <img
+        src={`${process.env.PUBLIC_URL}/images/icons/left_arrow_blue.svg`}
+        alt="Icon"
+      />
     </div>
   );
   const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
     <div
       {...props}
       className={
-        'cs_slider_next cs_center' +
-        (currentSlide === slideCount - 1 ? ' slick-disabled' : '')
+        "cs_slider_next cs_center" +
+        (currentSlide === slideCount - 1 ? " slick-disabled" : "")
       }
       aria-hidden="true"
       aria-disabled={currentSlide === slideCount - 1 ? true : false}
     >
-      <img src="images/icons/right_arrow_blue.svg" alt="Icon" />
+      <img src={`${process.env.PUBLIC_URL}/`} alt="Icon" />
     </div>
   );
   const settings = {

@@ -1,8 +1,8 @@
-import React, { useRef } from 'react';
-import Slider from 'react-slick';
-import SectionHeading from '../SectionHeading';
-import Spacing from '../Spacing';
-import IconBoxStyle10 from '../IconBox/IconBoxStyle10';
+import React, { useRef } from "react";
+import Slider from "react-slick";
+import SectionHeading from "../SectionHeading";
+import Spacing from "../Spacing";
+import IconBoxStyle10 from "../IconBox/IconBoxStyle10";
 
 export default function FeatureCarousel({ sectionTitle, data }) {
   const sliderRef = useRef(null);
@@ -48,10 +48,13 @@ export default function FeatureCarousel({ sectionTitle, data }) {
             <Spacing md="30" xl="0" />
             <div className="cs_slider_navigation cs_style_2">
               <div className="cs_slider_prev cs_center" onClick={previous}>
-                <img src="/images/icons/left_arrow_blue.svg" alt="Prev" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/icons/left_arrow_blue.svg`}
+                  alt="Prev"
+                />
               </div>
               <div className="cs_slider_next cs_center" onClick={next}>
-                <img src="/images/icons/right_arrow_blue.svg" alt="Next" />
+                <img src={`${process.env.PUBLIC_URL}/`} alt="Next" />
               </div>
             </div>
             <div className="cs_height_0 cs_height_lg_30" />

@@ -1,6 +1,6 @@
-import React, { useRef } from 'react';
-import Slider from 'react-slick';
-import TestimonialStyle4 from '../Testimonial/TestimonialStyle4';
+import React, { useRef } from "react";
+import Slider from "react-slick";
+import TestimonialStyle4 from "../Testimonial/TestimonialStyle4";
 
 export default function TestimonialCarouselStyle3({ data }) {
   const sliderRef = useRef(null);
@@ -30,10 +30,13 @@ export default function TestimonialCarouselStyle3({ data }) {
           className="cs_slider_prev cs_center cs_shadow_2"
           onClick={previous}
         >
-          <img src="/images/icons/left_arrow_blue.svg" alt="Prev" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/icons/left_arrow_blue.svg`}
+            alt="Prev"
+          />
         </div>
         <div className="cs_slider_next cs_center cs_shadow_2" onClick={next}>
-          <img src="/images/icons/right_arrow_blue.svg" alt="Next" />
+          <img src={`${process.env.PUBLIC_URL}/`} alt="Next" />
         </div>
       </div>
       <div className="cs_height_140 cs_height_lg_60" />

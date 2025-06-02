@@ -139,43 +139,43 @@ const awardData = [
 const departmentData = [
   {
     title: "Total Plastic Surgery",
-    iconUrl: "images/home_1/1.png",
-    href: `${process.env.PUBLIC_URL}/departments/department-details`,
+    iconUrl: `${process.env.PUBLIC_URL}/images/home_1/1.png`,
+    href: "departments/department-details",
   },
   {
     title: "Partial Plastic Surgery",
-    iconUrl: "images/home_1/2.png",
-    href: `${process.env.PUBLIC_URL}/departments/department-details`,
+    iconUrl: `${process.env.PUBLIC_URL}/images/home_1/2.png`,
+    href: "departments/department-details",
   },
   {
     title: "Facelift Surgery",
-    iconUrl: "images/home_1/3.png",
-    href: `${process.env.PUBLIC_URL}/departments/department-details`,
+    iconUrl: `${process.env.PUBLIC_URL}/images/home_1/3.png`,
+    href: "departments/department-details",
   },
   {
     title: "Spine & Joint",
-    iconUrl: "images/home_1/4.png",
-    href: `${process.env.PUBLIC_URL}/departments/department-details`,
+    iconUrl: `${process.env.PUBLIC_URL}/images/home_1/4.png`,
+    href: "departments/department-details",
   },
   {
     title: "Cardiology & Ophthalmology",
-    iconUrl: "images/home_1/5.png",
-    href: `${process.env.PUBLIC_URL}/departments/department-details`,
+    iconUrl: `${process.env.PUBLIC_URL}/images/home_1/5.png`,
+    href: "departments/department-details",
   },
   {
     title: "Health Checkups",
-    iconUrl: "images/home_1/6.png",
-    href: `${process.env.PUBLIC_URL}/departments/department-details`,
+    iconUrl: `${process.env.PUBLIC_URL}/images/home_1/6.png`,
+    href: "departments/department-details",
   },
   {
     title: "Cancer Treatment",
-    iconUrl: "images/home_1/7.png",
-    href: `${process.env.PUBLIC_URL}/departments/department-details`,
+    iconUrl: `${process.env.PUBLIC_URL}/images/home_1/7.png`,
+    href: "departments/department-details",
   },
   {
     title: "Stem Cell Therapy",
-    iconUrl: "images/home_1/8.png",
-    href: `${process.env.PUBLIC_URL}/departments/department-details`,
+    iconUrl: `${process.env.PUBLIC_URL}/images/home_1/8.png`,
+    href: "departments/department-details",
   },
 ];
 
