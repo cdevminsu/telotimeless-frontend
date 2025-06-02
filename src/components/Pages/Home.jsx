@@ -1,200 +1,214 @@
-import React from 'react';
-import Hero from '../Hero';
-import AboutSection from '../Section/AboutSection';
-import BrandsSection from '../Section/BrandsSection';
-import Banner from '../Section/BannerSection';
-import Section from '../Section';
-import FeaturesSection from '../Section/FeaturesSection';
-import TestimonialSection from '../Section/TestimonialSection';
-import BlogSection from '../Section/BlogSection';
-import AppointmentSection from '../Section/AppointmentSection';
-import FaqSection from '../Section/FaqSection';
-import AwardSection from '../Section/AwardSection';
-import DepartmentSection from '../Section/DepartmentSection';
-import { pageTitle } from '../../helpers/PageTitle';
+import React from "react";
+import Hero from "../Hero";
+import AboutSection from "../Section/AboutSection";
+import BrandsSection from "../Section/BrandsSection";
+import Banner from "../Section/BannerSection";
+import Section from "../Section";
+import FeaturesSection from "../Section/FeaturesSection";
+import TestimonialSection from "../Section/TestimonialSection";
+import BlogSection from "../Section/BlogSection";
+import AppointmentSection from "../Section/AppointmentSection";
+import FaqSection from "../Section/FaqSection";
+import AwardSection from "../Section/AwardSection";
+import DepartmentSection from "../Section/DepartmentSection";
+import { pageTitle } from "../../helpers/PageTitle";
 const featureListData = [
   {
-    iconSrc: '/images/home_1/compassion.svg',
-    title: 'Compassion',
+    iconSrc: "/images/home_1/compassion.svg",
+    title: "Compassion",
     subTitle:
-      'We understand that seeking medical care can be a stressful and emotional experience, and we strive to create a welcoming and supportive environment that puts our patients at ease and every one.',
+      "We understand that traveling abroad for medical care can feel overwhelming. At TeloTimeless, we create a warm, caring experience where every guest feels safe, heard, and supported—before, during, and after treatment.",
   },
   {
-    iconSrc: '/images/home_1/excellence.svg',
-    title: 'Excellence',
+    iconSrc: "/images/home_1/excellence.svg",
+    title: "Excellence",
     subTitle:
-      'We are committed to providing excellent medical care and services to our patients. We believe in continuously improving our skills, knowledge, and resources to ensure that we deliver the highest quality care possible.',
+      "We partner only with top-tier hospitals and specialists in Korea. Through curated services and constant quality checks, we ensure that every step of your journey meets the highest standards of safety and care.",
   },
   {
-    iconSrc: '/images/home_1/integrity.svg',
-    title: 'Integrity',
-    subTitle: `We believe in practicing medicine with integrity and honesty. We are transparent in our communication and decision-making processes, and we always put our patient's interests first & provide best solution.`,
+    iconSrc: "/images/home_1/integrity.svg",
+    title: "Integrity",
+    subTitle: `We value honesty, transparency, and ethics. From consultations to cost breakdowns, TeloTimeless ensures clear communication and always prioritizes the best interests of our clients in every decision.`,
   },
   {
-    iconSrc: '/images/home_1/respect.svg',
-    title: 'Respect',
+    iconSrc: "/images/home_1/respect.svg",
+    title: "Respect",
     subTitle:
-      'We treat all individuals with respect and dignity, regardless of their background, beliefs, or circumstances. We believe that every person deserves to be treated with compassion and kindness.',
+      "We embrace all cultures, backgrounds, and beliefs. Our multilingual support and personalized services are designed to make every individual feel respected and genuinely cared for—wherever you’re from.",
   },
   {
-    iconSrc: '/images/home_1/teamwork.svg',
-    title: 'Teamwork',
+    iconSrc: "/images/home_1/teamwork.svg",
+    title: "Teamwork",
     subTitle:
-      'We believe in working collaboratively with our team membersvand other healthcare professionals to provide comprehensive and effective care to our patients.',
+      "Your health journey is a shared mission. We work closely with hospitals, interpreters, and our care coordinators to deliver a seamless, end-to-end experience tailored just for you.",
   },
 ];
 const brandData = [
-  { imgUrl: 'images/brand_1.png', imgAlt: 'Brand' },
-  { imgUrl: 'images/brand_2.png', imgAlt: 'Brand' },
-  { imgUrl: 'images/brand_3.png', imgAlt: 'Brand' },
-  { imgUrl: 'images/brand_4.png', imgAlt: 'Brand' },
-  { imgUrl: 'images/brand_5.png', imgAlt: 'Brand' },
-  { imgUrl: 'images/brand_6.png', imgAlt: 'Brand' },
-  { imgUrl: 'images/brand_7.png', imgAlt: 'Brand' },
-  { imgUrl: 'images/brand_8.png', imgAlt: 'Brand' },
+  { imgUrl: "images/brand_1.png", imgAlt: "Brand" },
+  { imgUrl: "images/brand_2.png", imgAlt: "Brand" },
+  { imgUrl: "images/brand_3.png", imgAlt: "Brand" },
+  { imgUrl: "images/brand_4.png", imgAlt: "Brand" },
+  { imgUrl: "images/brand_5.png", imgAlt: "Brand" },
+  { imgUrl: "images/brand_6.png", imgAlt: "Brand" },
+  { imgUrl: "images/brand_7.png", imgAlt: "Brand" },
+  { imgUrl: "images/brand_8.png", imgAlt: "Brand" },
+  { imgUrl: "images/brand_9.png", imgAlt: "Brand" },
+  { imgUrl: "images/brand_10.png", imgAlt: "Brand" },
+  { imgUrl: "images/brand_11.png", imgAlt: "Brand" },
+  { imgUrl: "images/brand_12.png", imgAlt: "Brand" },
 ];
 const faqData = [
   {
-    title: 'What services does ProHealth offer?',
+    title: "What services does TeloTimeless provide?",
     content:
-      'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
+      "TeloTimeless offers end-to-end medical tourism coordination, including hospital matchmaking, appointment booking, interpretation, travel concierge services, and post-treatment support.",
   },
   {
-    title: 'How do I schedule an appointment with ProHealth?',
+    title: "Can I choose the hospital or doctor myself?",
     content:
-      'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
+      "Yes. While we curate top medical institutions for each specialty, you are free to choose your preferred hospital or doctor. We also provide expert recommendations based on your condition and goals.",
   },
   {
-    title: 'Do you accept insurance?',
+    title: "Is TeloTimeless available to international patients only?",
     content:
-      'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
+      "No. Our services are available to both international and domestic clients seeking high-quality medical care and wellness experiences in Korea.",
   },
   {
-    title: 'What should I bring to my appointment?',
+    title: "How does TeloTimeless ensure the quality of hospitals?",
     content:
-      'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
+      "We partner only with accredited hospitals and specialists with proven track records. Our team continuously evaluates partner institutions based on safety, expertise, and patient satisfaction.",
   },
   {
-    title: 'How do I request a prescription refill?',
+    title: "Can TeloTimeless help with travel arrangements too?",
     content:
-      'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
+      "Absolutely. We offer integrated concierge services, including airport pickup, hotel bookings, interpretation, and local guides to make your medical journey stress-free and comfortable.",
   },
 ];
 const blogData = [
   {
-    title: 'The Benefits of Mindfulness Meditation for Stress and Anxiety',
-    thumbUrl: 'images/home_1/post_1.jpeg',
-    date: 'May 1, 2023',
-    btnText: 'Learn More',
-    href: '/blog/blog-details',
+    title: "The Benefits of Mindfulness Meditation for Stress and Anxiety",
+    thumbUrl: "images/home_1/post_1.jpeg",
+    date: "May 1, 2023",
+    btnText: "Learn More",
+    href: "/blog/blog-details",
     socialShare: true,
   },
   {
-    title: 'Healthy Eating on a Budget: Tips and Strategies',
-    thumbUrl: 'images/home_1/post_2.jpeg',
-    date: 'May 4, 2023',
-    btnText: 'Learn More',
-    href: '/blog/blog-details',
+    title: "Healthy Eating on a Budget: Tips and Strategies",
+    thumbUrl: "images/home_1/post_2.jpeg",
+    date: "May 4, 2023",
+    btnText: "Learn More",
+    href: "/blog/blog-details",
     socialShare: true,
   },
   {
-    title: 'The Importance of Regular Cancer Screenings and Early Detection',
-    thumbUrl: 'images/home_1/post_3.jpeg',
-    date: 'May 1, 2023',
-    btnText: 'Learn More',
-    href: '/blog/blog-details',
+    title: "The Importance of Regular Cancer Screenings and Early Detection",
+    thumbUrl: "images/home_1/post_3.jpeg",
+    date: "May 1, 2023",
+    btnText: "Learn More",
+    href: "/blog/blog-details",
     socialShare: true,
   },
 ];
 const awardData = [
   {
-    title: 'Malcolm Baldrige National Quality Award',
+    title: "Malcolm Baldrige National Quality Award",
     subTitle:
-      'This award recognizes healthcare organizations that have demonstrated excellence in leadership, strategic planning, customer and employee satisfaction, and operational efficiency.',
-    iconUrl: 'images/icons/award.svg',
+      "This award recognizes healthcare organizations that have demonstrated excellence in leadership, strategic planning, customer and employee satisfaction, and operational efficiency.",
+    iconUrl: "images/icons/award.svg",
   },
   {
-    title: 'HIMSS Davies Award',
+    title: "HIMSS Davies Award",
     subTitle:
-      'This award recognizes healthcare organizations that have used health information technology to improve patient outcomes and reduce costs.',
-    iconUrl: 'images/icons/award.svg',
+      "This award recognizes healthcare organizations that have used health information technology to improve patient outcomes and reduce costs.",
+    iconUrl: "images/icons/award.svg",
   },
   {
-    title: 'Healthgrades National’s Best Hospital',
+    title: "Healthgrades National’s Best Hospital",
     subTitle:
-      'This recognition is given to hospitals that have achieved high ratings for clinical quality and patient safety across multiple specialties and procedures.',
-    iconUrl: 'images/icons/award.svg',
+      "This recognition is given to hospitals that have achieved high ratings for clinical quality and patient safety across multiple specialties and procedures.",
+    iconUrl: "images/icons/award.svg",
   },
   {
-    title: 'Joint Commission Gold Seal of Approval',
+    title: "Joint Commission Gold Seal of Approval",
     subTitle:
-      'This recognition is given to hospitals that have met rigorous standards for patient safety and quality of care.',
-    iconUrl: 'images/icons/award.svg',
+      "This recognition is given to hospitals that have met rigorous standards for patient safety and quality of care.",
+    iconUrl: "images/icons/award.svg",
   },
 ];
 const departmentData = [
   {
-    title: 'Emergency Department',
-    iconUrl: 'images/home_1/department_icon_1.svg',
-    href: '/departments/department-details',
+    title: "Total Plastic Surgery",
+    iconUrl: "images/home_1/1.png",
+    href: "/departments/department-details",
   },
   {
-    title: 'Pediatric Departement',
-    iconUrl: 'images/home_1/department_icon_2.svg',
-    href: '/departments/department-details',
+    title: "Partial Plastic Surgery",
+    iconUrl: "images/home_1/2.png",
+    href: "/departments/department-details",
   },
   {
-    title: 'Gynecology Department',
-    iconUrl: 'images/home_1/department_icon_3.svg',
-    href: '/departments/department-details',
+    title: "Facelift Surgery",
+    iconUrl: "images/home_1/3.png",
+    href: "/departments/department-details",
   },
   {
-    title: 'Cardiology Department',
-    iconUrl: 'images/home_1/department_icon_4.svg',
-    href: '/departments/department-details',
+    title: "Spine & Joint",
+    iconUrl: "images/home_1/4.png",
+    href: "/departments/department-details",
   },
   {
-    title: 'Neurology Department',
-    iconUrl: 'images/home_1/department_icon_5.svg',
-    href: '/departments/department-details',
+    title: "Cardiology & Ophthalmology",
+    iconUrl: "images/home_1/5.png",
+    href: "/departments/department-details",
   },
   {
-    title: 'Psychiatry Department',
-    iconUrl: 'images/home_1/department_icon_6.svg',
-    href: '/departments/department-details',
+    title: "Health Checkups",
+    iconUrl: "images/home_1/6.png",
+    href: "/departments/department-details",
+  },
+  {
+    title: "Cancer Treatment",
+    iconUrl: "images/home_1/7.png",
+    href: "/departments/department-details",
+  },
+  {
+    title: "Stem Cell Therapy",
+    iconUrl: "images/home_1/8.png",
+    href: "/departments/department-details",
   },
 ];
 
 export default function Home() {
-  pageTitle('Home');
+  pageTitle("Home");
   return (
     <>
       <Hero
-        title="Your Partner in Health and Wellness"
-        subTitle="We are committed to providing you with the best medical and healthcare services to help you live healthier and happier."
+        title="Your partner in curated health care"
+        subTitle="We are committed to connecting you with Korea's top medical experts, offering tailored care and travel support for a safe, smooth healing journey."
         bgUrl="/images/home_1/hero_bg.jpeg"
         imgUrl="/images/home_1/hero_img.png"
         videoBtnText="See how we work"
-        videoUrl="https://www.youtube.com/embed/VcaAVWtP48A"
+        videoUrl="https://www.youtube.com/embed/xy2iTHUHm_g"
         infoList={[
           {
-            title: 'Hotline',
-            subTitle: '123-456-7890',
-            iconUrl: '/images/contact/icon_1.svg',
+            title: "Hotline",
+            subTitle: "+82 1088698508",
+            iconUrl: "/images/contact/icon_1.svg",
           },
           {
-            title: 'Ambulance',
-            subTitle: '876-256-876',
-            iconUrl: '/images/icons/ambulance.svg',
+            title: "Email",
+            subTitle: "sonadorBIK@gmail.com",
+            iconUrl: "/images/icons/tick.svg",
           },
           {
-            title: 'Location',
-            subTitle: 'New York, US',
-            iconUrl: '/images/icons/pin.svg',
+            title: "Location",
+            subTitle: "Seoul, KR",
+            iconUrl: "/images/icons/pin.svg",
           },
         ]}
         btnText="Book Now"
-        btnUrl="/appointments"
+        btnUrl="/"
       />
       {/* Start Feature Section */}
       <Section
@@ -214,13 +228,12 @@ export default function Home() {
           imgUrl="/images/home_1/about.png"
           spiningImgUrl="/images/home_1/about_mini.svg"
           title="About Us"
-          subTitle="PRO HEALTH"
+          subTitle="TeloTimeless"
           featureList={[
             {
-              featureListTitle:
-                'ProHealth is a team of experienced medical professionals',
+              featureListTitle: "A team of healthcare coordination experts",
               featureListSubTitle:
-                'Dedicated to providing top-quality healthcare services. We believe in a holistic approach to healthcare that focuses on treating the whole person, not just the illness or symptoms.',
+                "Dedicated to connecting patients with leading Korean specialists. We deliver comprehensive care solutions tailored to each individual’s medical needs.",
             },
           ]}
         />
@@ -229,7 +242,7 @@ export default function Home() {
       {/* Start Departments Section */}
       <Section topMd={185} topLg={150} topXl={110}>
         <DepartmentSection
-          sectionTitle="Departments"
+          sectionTitle="Medical Categories"
           bgUrl="images/home_1/department_bg.svg"
           data={departmentData}
         />
@@ -237,9 +250,6 @@ export default function Home() {
 
       {/* End Departments Section */}
       {/* Start Award Section */}
-      <Section topMd={185} topLg={140} topXl={100}>
-        <AwardSection sectionTitle="Departments" data={awardData} />
-      </Section>
       {/* End Award Section */}
       {/* Start Testimonial */}
       <Section
@@ -251,8 +261,8 @@ export default function Home() {
         bottomXl={110}
       >
         <TestimonialSection
-          sectionTitle="Some Reviews"
-          sectionTitleDown="Of our clients"
+          sectionTitle="Milestones"
+          sectionTitleDown="Our Main Pillars"
         />
       </Section>
       {/* End Testimonial */}
@@ -261,28 +271,12 @@ export default function Home() {
         <Banner
           bgUrl="images/home_1/cta_bg.svg"
           imgUrl="images/home_1/cta_img.png"
-          title="Don’t Let Your Health Take a Backseat!"
-          subTitle="Schedule an appointment with one of our experienced medical professionals today!"
+          title="Your Health Journey Starts Here"
+          subTitle="Connect with Korea’s top hospitals through our trusted concierge service"
         />
       </Section>
       {/* End Banner Section */}
       {/* Start Blog Section */}
-      <Section topMd={190} topLg={145} topXl={105}>
-        <BlogSection
-          sectionTitle="Latest Update"
-          sectionTitleUp="BLOG POSTS"
-          data={blogData}
-        />
-      </Section>
-      {/* End Blog Section */}
-      {/* Start Appointment Section */}
-      <Section topMd={190} topLg={145} topXl={105} id="appointment">
-        <AppointmentSection
-          sectionTitle="Appointment"
-          sectionTitleUp="BOOK AN"
-          imgUrl="/images/home_1/appointment.jpeg"
-        />
-      </Section>
       {/* End Appointment Section */}
       {/* Start FAQ Section */}
       <Section topMd={190} topLg={145} topXl={105}>
