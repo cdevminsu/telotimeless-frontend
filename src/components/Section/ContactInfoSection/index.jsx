@@ -12,21 +12,21 @@ export default function ContactInfoSection({ sectionTitle }) {
           <IconBoxStyle11
             title="Phone"
             subTitle="+82 1088698508"
-            iconSrc="/images/contact/icon_1.svg"
+            iconSrc={`${process.env.PUBLIC_URL}/images/contact/icon_1.svg`}
           />
         </div>
         <div className="col-xl-4">
           <IconBoxStyle11
             title="Email"
             subTitle="sonadorBIK@gmail.com"
-            iconSrc="/images/contact/icon_2.svg"
+            iconSrc={`${process.env.PUBLIC_URL}/images/contact/icon_2.svg`}
           />
         </div>
         <div className="col-xl-4">
           <IconBoxStyle11
             title="Location"
             subTitle="#815, 14, Dogok-ro 1-gil, Gangnam-gu, Seoul 06253, Republic of Korea"
-            iconSrc="/images/contact/icon_3.svg"
+            iconSrc={`${process.env.PUBLIC_URL}/images/contact/icon_3.svg`}
           />
         </div>
       </div>
