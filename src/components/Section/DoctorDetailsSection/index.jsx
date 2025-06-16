@@ -1,10 +1,10 @@
-import { Icon } from '@iconify/react';
-import React from 'react';
-import { Link } from 'react-router-dom';
-import List from '../../List';
-import ListStyle3 from '../../List/ListStyle3';
-import ListStyle2 from '../../List/ListStyle2';
-import Spacing from '../../Spacing';
+import { Icon } from "@iconify/react";
+import React from "react";
+import { Link } from "react-router-dom";
+import List from "../../List";
+import ListStyle3 from "../../List/ListStyle3";
+import ListStyle2 from "../../List/ListStyle2";
+import Spacing from "../../Spacing";
 
 export default function DoctorDetailsSection({
   bgUrl,
@@ -46,13 +46,13 @@ export default function DoctorDetailsSection({
             <Spacing md="94" lg="60" />
             <ListStyle2
               heading={contactInfoHeading}
-              iconUrl="/images/icons/schedule.svg"
+              iconUrl={`${process.env.PUBLIC_URL}/images/icons/schedule.svg`}
               data={contactInfo}
             />
             <Spacing md="66" lg="60" />
             <ListStyle3
               heading={scheduleHeading}
-              iconUrl="/images/icons/schedule.svg"
+              iconUrl={`${process.env.PUBLIC_URL}/images/icons/schedule.svg`}
               data={schedules}
             />
           </div>
@@ -74,19 +74,19 @@ export default function DoctorDetailsSection({
             <Spacing md="35" lg="0" />
             <List
               heading={degreesHeading}
-              iconUrl="/images/icons/graduation.svg"
+              iconUrl={`${process.env.PUBLIC_URL}/images/icons/graduation.svg`}
               data={degrees}
             />
             <Spacing md="70" lg="50" />
             <List
               heading={experiencesHeading}
-              iconUrl="/images/icons/experience.svg"
+              iconUrl={`${process.env.PUBLIC_URL}/images/icons/experience.svg`}
               data={experiences}
             />
             <Spacing md="70" lg="50" />
             <List
               heading={awardHeading}
-              iconUrl="/images/icons/award2.svg"
+              iconUrl={`${process.env.PUBLIC_URL}/images/icons/award2.svg`}
               data={awards}
             />
           </div>

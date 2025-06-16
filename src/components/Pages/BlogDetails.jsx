@@ -1,50 +1,50 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Section from '../Section';
-import Breadcrumb from '../Breadcrumb';
-import BannerSectionStyle9 from '../Section/BannerSection/BannerSectionStyle9';
-import { Icon } from '@iconify/react';
-import Spacing from '../Spacing';
-import Post from '../Post';
-import Sidebar from '../Sidebar';
-import AuthorWidget from '../Widget/AuthorWidget';
-import CommentsWidget from '../Widget/CommentsWidget';
-import ReplyWidget from '../Widget/ReplyWidget';
-import { pageTitle } from '../../helpers/PageTitle';
+import React from "react";
+import { Link } from "react-router-dom";
+import Section from "../Section";
+import Breadcrumb from "../Breadcrumb";
+import BannerSectionStyle9 from "../Section/BannerSection/BannerSectionStyle9";
+import { Icon } from "@iconify/react";
+import Spacing from "../Spacing";
+import Post from "../Post";
+import Sidebar from "../Sidebar";
+import AuthorWidget from "../Widget/AuthorWidget";
+import CommentsWidget from "../Widget/CommentsWidget";
+import ReplyWidget from "../Widget/ReplyWidget";
+import { pageTitle } from "../../helpers/PageTitle";
 const tags = [
-  { tag: 'Emergency', href: '/blog/blog-details' },
-  { tag: 'Pediatric', href: '/blog/blog-details' },
-  { tag: 'Cardiology', href: '/blog/blog-details' },
-  { tag: 'Psychiatry', href: '/blog/blog-details' },
-  { tag: 'Others', href: '/blog/blog-details' },
+  { tag: "Emergency", href: "/blog/blog-details" },
+  { tag: "Pediatric", href: "/blog/blog-details" },
+  { tag: "Cardiology", href: "/blog/blog-details" },
+  { tag: "Psychiatry", href: "/blog/blog-details" },
+  { tag: "Others", href: "/blog/blog-details" },
 ];
 const relatedBlog = [
   {
     title:
-      'The Importance of Mental Health: Understanding and Managing Anxiety Disorders',
-    thumbUrl: '/images/blog/post_1.jpeg',
-    date: 'March 12',
-    btnText: 'Learn More',
-    href: '/blog/blog-details',
+      "The Importance of Mental Health: Understanding and Managing Anxiety Disorders",
+    thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_1.jpeg`,
+    date: "March 12",
+    btnText: "Learn More",
+    href: "/blog/blog-details",
   },
   {
     title: `A Parent's Guide to Childhood Vaccinations: What You Need to Know`,
-    thumbUrl: '/images/blog/post_2.jpeg',
-    date: 'March 11',
-    btnText: 'Learn More',
-    href: '/blog/blog-details',
+    thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_2.jpeg`,
+    date: "March 11",
+    btnText: "Learn More",
+    href: "/blog/blog-details",
   },
   {
-    title: 'Preventing Heart Disease: Tips for a Heart-Healthy Lifestyle',
-    thumbUrl: '/images/blog/post_3.jpeg',
-    date: 'March 9',
-    btnText: 'Learn More',
-    href: '/blog/blog-details',
+    title: "Preventing Heart Disease: Tips for a Heart-Healthy Lifestyle",
+    thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_3.jpeg`,
+    date: "March 9",
+    btnText: "Learn More",
+    href: "/blog/blog-details",
   },
 ];
 
 export default function BlogDetails() {
-  pageTitle('Blog Details');
+  pageTitle("Blog Details");
   return (
     <>
       <Section topMd={170} bottomMd={54} bottomLg={54}>
@@ -81,7 +81,7 @@ export default function BlogDetails() {
         </div>
         <Spacing md="55" />
         <img
-          src="/images/blog/blog_details_1.jpeg"
+          src={`${process.env.PUBLIC_URL}/images/blog/blog_details_1.jpeg`}
           alt="Blog Details"
           className="w-100 cs_radius_20"
         />
@@ -163,7 +163,7 @@ export default function BlogDetails() {
               </p>
               <blockquote
                 style={{
-                  backgroundImage: 'url("/images/blog/blog_details_2.jpeg")',
+                  backgroundImage: `url(${process.env.PUBLIC_URL}/images/blog/blog_details_2.jpeg)`,
                 }}
               >
                 <p>
@@ -198,7 +198,7 @@ export default function BlogDetails() {
                   <b>Mindful meditation and relaxation techniques:</b> Deep
                   breathing exercises, progressive muscle relaxation, and
                   mindfulness meditation can reduce symptoms of anxiety by
-                  promoting relaxation and reducing feelings of fear and worry.{' '}
+                  promoting relaxation and reducing feelings of fear and worry.{" "}
                   <br />
                   <br />
                   <b>Healthy lifestyle:</b> Regular physical exercise, a healthy
@@ -231,7 +231,7 @@ export default function BlogDetails() {
                 Anxiety disorders can be daunting, but with the right
                 combination of professional help and personal coping strategies,
                 they can be managed effectively. It's essential to remember that
-                help is available and that you're not alone in your struggle.{' '}
+                help is available and that you're not alone in your struggle.{" "}
                 <br />
                 <br />
                 Remember, it's crucial to reach out to a mental health
@@ -243,7 +243,7 @@ export default function BlogDetails() {
             </div>
             <Spacing md="85" />
             <AuthorWidget
-              imgUrl="/images/blog/author.png"
+              imgUrl={`${process.env.PUBLIC_URL}/images/blog/author.png`}
               name="Author Bio"
               description="John Smith is a freelance writer and content strategist with a passion for helping businesses tell their stories. With over 10 years of experience in the industry, John has worked with a wide range of clients, from startups to Fortune 500 companies. He holds a Bachelor's degree in English from the University of California, Los Angeles (UCLA), and is an avid reader and traveler in his free time. Follow him on Twitter @johnsmithwriter for the latest updates on his work."
             />
@@ -272,7 +272,7 @@ export default function BlogDetails() {
         <BannerSectionStyle9
           title="Don’t Let Your Health <br />Take a Backseat!"
           subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
-          imgUrl="/images/doctors/banner_img_3.png"
+          imgUrl={`${process.env.PUBLIC_URL}/images/doctors/banner_img_3.png`}
         />
       </Section>
     </>
