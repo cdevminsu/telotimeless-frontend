@@ -7,63 +7,63 @@ import { pageTitle } from "../../helpers/PageTitle";
 const blogData = [
   {
     title:
-      "The Importance of Mental Health: Understanding and Managing Anxiety Disorders",
+      "Atelier",
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_1.jpeg`,
-    date: "March 12",
+    date: "Plastic Surgery",
     btnText: "Learn More",
     href: "/blog/blog-details",
     socialShare: true,
   },
   {
-    title: `A Parent's Guide to Childhood Vaccinations: What You Need to Know`,
+    title: `RNWOOD`,
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_2.jpeg`,
-    date: "March 11",
+    date: "Plastic Surgery",
     btnText: "Learn More",
     href: "/blog/blog-details",
     socialShare: true,
   },
   {
-    title: "Preventing Heart Disease: Tips for a Heart-Healthy Lifestyle",
+    title: "JK Plastic Surgery Center",
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_3.jpeg`,
-    date: "March 9",
+    date: "Plastic Surgery",
     btnText: "Learn More",
     href: "/blog/blog-details",
     socialShare: true,
   },
   {
-    title: "Managing Chronic Pain: Treatment Options and Strategies",
+    title: "BANOBAGI",
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_4.jpeg`,
-    date: "March 8",
+    date: "Plastic Surgery",
     btnText: "Learn More",
     href: "/blog/blog-details",
     socialShare: true,
   },
   {
-    title: "Understanding and Managing Diabetes: Tips for Healthy Living",
+    title: "ORGANACELL",
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_5.jpeg`,
-    date: "March 5",
+    date: "Dermatology",
     btnText: "Learn More",
     href: "/blog/blog-details",
     socialShare: true,
   },
   {
-    title: "The Role of Physical Therapy in Injury Recovery and Prevention",
+    title: "THE HEAL",
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_6.jpeg`,
-    date: "March 2",
+    date: "Dermatology",
     btnText: "Learn More",
     href: "/blog/blog-details",
     socialShare: true,
   },
   {
-    title: "Breaking the Stigma: Raising Awareness for Mental Health Issues",
+    title: "HEER",
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_7.jpeg`,
-    date: "Feb 28",
+    date: "Dermatology",
     btnText: "Learn More",
     href: "/blog/blog-details",
     socialShare: true,
   },
   {
-    title: "Allergies and Asthma: Causes, Symptoms, and Treatment Options",
+    title: "Kwangdong Hospital",
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_8.jpeg`,
     date: "Feb 26",
     btnText: "Learn More",
@@ -71,7 +71,7 @@ const blogData = [
     socialShare: true,
   },
   {
-    title: "Caring for Your Skin: Tips for Healthy, Glowing Skin",
+    title: "Harrison Hospital",
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_9.jpeg`,
     date: "Feb 25",
     btnText: "Learn More",
@@ -85,7 +85,7 @@ export default function Blog() {
   return (
     <>
       <Section topMd={170} bottomMd={96} bottomLg={70}>
-        <Breadcrumb title="Curated Hospital List" />
+        <Breadcrumb title="Verified Hospital Partners" />
       </Section>
       <Section bottomMd={200} bottomLg={150} bottomXl={110}>
         <BlogSectionStyle2 data={blogData} />

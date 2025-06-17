@@ -28,7 +28,7 @@ export default function Pagination() {
       </li>
       <li>
         <button className="cs_pagination_arrow cs_center">
-          <img src={`${process.env.PUBLIC_URL}/`} alt="Icon" />
+          <img src={`${process.env.PUBLIC_URL}/images/icons/right_arrow_blue.svg`} alt="Icon" />
         </button>
       </li>
     </ul>

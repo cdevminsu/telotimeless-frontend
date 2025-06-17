@@ -11,37 +11,37 @@ import AwardSectionStyle2 from "../Section/AwardSection/AwardSectionStyle2";
 import { pageTitle } from "../../helpers/PageTitle";
 const departmentData = [
   {
-    title: "Diagnostic testing",
+    title: "Expert Medical Curation",
     subTitle:
-      "Blood tests, imaging studies, and other tests to diagnose health conditions",
+      "Specialist matching, hospital selection, and itinerary planning based on individual medical needs",
     iconUrl: `${process.env.PUBLIC_URL}/images/icons/calendar_white.svg`,
     href: "/departments/department-details",
   },
   {
-    title: "Rehabilitation services",
+    title: "Hospital Booking & Schedule Coordination",
     subTitle:
-      "Physical therapy, occupational therapy, and other services to help patients recover from injuries",
+      "Appointment booking, translation support, and full schedule coordination for your treatment trip",
     iconUrl: `${process.env.PUBLIC_URL}/images/icons/calendar_white.svg`,
     href: "/departments/department-details",
   },
   {
-    title: "Preventive care",
+    title: "Advanced Treatments & Check-ups",
     subTitle:
-      "Annual checkups, immunizations, and health screenings care preventive",
+      "Cancer, heart, stem cell therapy, and full-body health screenings in top-tier hospitals",
     iconUrl: `${process.env.PUBLIC_URL}/images/icons/calendar_white.svg`,
     href: "/departments/department-details",
   },
   {
-    title: "Treatment for acute and chronic conditions",
+    title: "All-in-One Medical Travel",
     subTitle:
-      "Medication management, disease management, and other treatments to improve health outcomes",
+      "Airport pickup, personal assistance, and curated K-culture activities during your visit",
     iconUrl: `${process.env.PUBLIC_URL}/images/icons/calendar_white.svg`,
     href: "/departments/department-details",
   },
   {
-    title: "Mental health services",
+    title: "Transparent Pricing & Custom Estimates",
     subTitle:
-      "Counseling, therapy, and other services to help patients manage mental health conditions",
+      "Personalized cost estimates and clear pricing based on your selected services and budget",
     iconUrl: `${process.env.PUBLIC_URL}/images/icons/calendar_white.svg`,
     href: "/departments/department-details",
   },
@@ -49,46 +49,46 @@ const departmentData = [
 
 const featureListData = [
   {
-    title: "Experienced Medical Professionals",
+    title: "Verified Partners",
     subTitle:
-      "Our team includes experienced doctors, nurses, <br />and other healthcare professionals who are <br />dedicated to providing the best possible care to <br />our patients.",
+      "We work with KHIDI-appointed GHKOL consultants and certified providers to ensure reliable and medically sound care.",
     iconUrl: `${process.env.PUBLIC_URL}/images/icons/professional.svg`,
   },
   {
-    title: "Comprehensive <br />Services",
+    title: "Expert Guidance",
     subTitle:
-      "We offer a wide range of healthcare services, <br />from preventive care to specialized treatment <br />for complex conditions.",
+      "Our medical advisors offer tailored consultations and connect you with the right treatment for your unique needs.",
     iconUrl: `${process.env.PUBLIC_URL}/images/icons/comprehensive.svg`,
   },
   {
-    title: "Patient-centered <br />Approach",
+    title: "Trusted Quality",
     subTitle:
-      "We believe in treating each patient as an <br />individual, and we take the time to understand <br />your unique health needs and concerns.",
+      "Every hospital and clinic is rigorously vetted to meet international healthcare and safety standards.",
     iconUrl: `${process.env.PUBLIC_URL}/images/icons/patient.svg`,
   },
   {
-    title: "State-of-the-art <br />Facilities",
+    title: "Transparent Process",
     subTitle:
-      "Our healthcare center is equipped with the <br />latest technology and equipment to provide our <br />patients with the most advanced care possible.",
+      "We provide clear pricing, honest communication, and no hidden fees throughout your medical journey.",
     iconUrl: `${process.env.PUBLIC_URL}/images/icons/facilities.svg`,
   },
 ];
 
 const funFactData = [
-  { number: "20+", title: "Years of experience" },
-  { number: "95%", title: "Patient satisfaction rating" },
-  { number: "5000+", title: "Patients served annually" },
-  { number: "10+", title: "Healthcare providers on staff" },
-  { number: "22+", title: "Convenient locations in the area" },
+  { number: "20+", title: "Verified Medical Partners" },
+  { number: "100%", title: "GHKOL Expert Involvement" },
+  { number: "10+", title: "Medical Specialties Covered" },
+  { number: "48-", title: "Hour Response Time" },
+  { number: "90%", title: "Patient Satisfaction Rate" },
 ];
 
 const teamData = [
   {
     imgUrl: `${process.env.PUBLIC_URL}/images/about/doctor_1.png`,
-    name: "Dr. James Lee, MD",
-    designation: "Head of Cardiologist",
+    name: "Dr. Min-Hee Ryu",
+    designation: "Founder of RNWOOD",
     description:
-      "With expertise in managing complex heart conditions and performing advanced cardiac procedures",
+      "Renowned for facial anatomy expertise and global academic leadership, with extensive experience in top Korean clinics and global societies.",
     social: [
       { icon: "fa6-brands:facebook-f", href: "/about" },
       { icon: "fa6-brands:linkedin-in", href: "/about" },
@@ -97,10 +97,10 @@ const teamData = [
   },
   {
     imgUrl: `${process.env.PUBLIC_URL}/images/about/doctor_2.png`,
-    name: "Dr. John Smith, MD",
-    designation: "Emergency Medicine Physician",
+    name: "Byung-Il Kang, CEO",
+    designation: "GHKOL Consultant",
     description:
-      "With expertise in treating acute illnesses and injuries in medicine physician",
+      "A veteran in global healthcare consulting with over 60 projects, recognized by the Korean government for advancing Korea's international medical presence.",
     social: [
       { icon: "fa6-brands:facebook-f", href: "/about" },
       { icon: "fa6-brands:linkedin-in", href: "/about" },
@@ -109,10 +109,10 @@ const teamData = [
   },
   {
     imgUrl: `${process.env.PUBLIC_URL}/images/about/doctor_3.png`,
-    name: "Dr. Susan Bones, MD",
-    designation: "Board-certified Pediatrician",
+    name: "Dr. Juyoung Go",
+    designation: "Director of Atelier",
     description:
-      "With experience in managing complex medical conditions in children",
+      "Expert in reconstructive and aesthetic surgery, with academic and clinical excellence from Samsung Medical Center to international fellowships.",
     social: [
       { icon: "fa6-brands:facebook-f", href: "/about" },
       { icon: "fa6-brands:linkedin-in", href: "/about" },
@@ -131,19 +131,19 @@ const galleryData = [
 const awardData = [
   {
     iconUrl: `${process.env.PUBLIC_URL}/images/icons/award.svg`,
-    title: "Malcolm Baldrige National Quality Award",
+    title: "Medical Korea Global Healthcare Award",
   },
   {
     iconUrl: `${process.env.PUBLIC_URL}/images/icons/award.svg`,
-    title: "HIMSS Davies Award",
+    title: "Asia Star Award for Medical Innovation",
   },
   {
     iconUrl: `${process.env.PUBLIC_URL}/images/icons/award.svg`,
-    title: "Healthgrades National’s Best Hospital",
+    title: "KHIDI Global Consulting Excellence Award",
   },
   {
     iconUrl: `${process.env.PUBLIC_URL}/images/icons/award.svg`,
-    title: "Joint Commission Gold Seal of Approval",
+    title: "Ministry of Health and Welfare Contribution Award",
   },
 ];
 
@@ -154,8 +154,8 @@ export default function About() {
       <BannerSectionStyle3
         bgUrl={`${process.env.PUBLIC_URL}/images/about/banner_bg.svg`}
         imgUrl={`${process.env.PUBLIC_URL}/images/about/banner_img.png`}
-        title="Welcome to <br />ProHealth Medical & Healthcare Center"
-        subTitle="Your Partner in Health and Wellness"
+        title="Telotimeless <br />K-Medical Curation Platform"
+        subTitle="We curate top Korean medical institutions to provide patients worldwide with safe, expert-guided care."
       />
       <Section topMd={200} topLg={150} topXl={110}>
         <DepartmentSectionStyle2
@@ -179,7 +179,7 @@ export default function About() {
       </Section>
       <Section topMd={190} topLg={145} topXl={105}>
         <TeamSection
-          sectionTitle="Experts Doctor"
+          sectionTitle="Verified Experts"
           sectionTitleUp="MEET OUR"
           data={teamData}
         />
@@ -200,17 +200,17 @@ export default function About() {
         bottomXl={110}
       >
         <AwardSectionStyle2
-          sectionTitle="Winning Awards and <br />Recognition"
-          sectionTitleUp="AWARDS"
-          sectionSubTitle="We have been recognized for our commitment to <br />excellence in healthcare."
+          sectionTitle="Global Awards and <br />Recognition"
+          sectionTitleUp="ACHIEVEMENTS"
+          sectionSubTitle="Honored for leadership and excellence in <br />international medical consulting and services."
           data={awardData}
         />
       </Section>
       <Section className="cs_footer_margin_0">
         <BannerSectionStyle4
           bgUrl={`${process.env.PUBLIC_URL}/images/about/banner_bg_2.jpeg`}
-          title="Don’t Let Your Health <br />Take a Backseat!"
-          subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
+          title="Take Charge of Your <br />Health Today"
+          subTitle="Schedule your personalized consultation <br />with our top-rated medical experts now."
           center
         />
       </Section>
