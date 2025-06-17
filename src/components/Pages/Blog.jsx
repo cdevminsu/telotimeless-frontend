@@ -92,8 +92,8 @@ export default function Blog() {
       </Section>
       <Section className="cs_footer_margin_0">
         <BannerSectionStyle9
-          title="Don’t Let Your Health <br />Take a Backseat!"
-          subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
+          title="Your Health Deserves <br/>the Front Seat."
+          subTitle="Connect with trusted medical experts <br />and start your journey to better health today."
           imgUrl={`${process.env.PUBLIC_URL}/images/doctors/banner_img_3.png`}
         />
       </Section>

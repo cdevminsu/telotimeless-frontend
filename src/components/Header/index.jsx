@@ -61,14 +61,14 @@ export default function Header({ logoSrc, variant }) {
                         Hospitals
                       </Link>
                     </li>
-                    <li className="menu-item">
+                    {/* <li className="menu-item">
                       <Link
                         to="/doctors"
                         onClick={() => setMobileToggle(false)}
                       >
                         Partners
                       </Link>
-                    </li>
+                    </li> */}
                     <li className="menu-item">
                       <Link
                         to="/appointments"

@@ -148,7 +148,7 @@ const departmentData = [
     href: "departments/department-details",
   },
   {
-    title: "Facelift Surgery",
+    title: "Dermatology & Aesthetic",
     iconUrl: `${process.env.PUBLIC_URL}/images/home_1/3.png`,
     href: "departments/department-details",
   },
