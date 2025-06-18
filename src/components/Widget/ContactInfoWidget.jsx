@@ -1,5 +1,5 @@
-import { Icon } from '@iconify/react';
-import React from 'react';
+import { Icon } from "@iconify/react";
+import React from "react";
 
 export default function ContactInfoWidget() {
   return (
@@ -8,19 +8,19 @@ export default function ContactInfoWidget() {
         <i className="cs_accent_bg">
           <Icon icon="ep:location" />
         </i>
-        123 Anywhere St., Any City 12345
+        #815, 14, Dogok-ro 1-gil, Gangnam-gu, Seoul 06253, Republic of Korea
       </li>
       <li>
         <i className="cs_accent_bg">
           <Icon icon="fluent:call-24-regular" />
         </i>
-        123-456-7890
+        +82 1088698508
       </li>
       <li>
         <i className="cs_accent_bg">
           <Icon icon="bi:envelope" />
         </i>
-        hellocallcenter@gmail.com
+        sonadorBIK@gmail.com
       </li>
     </ul>
   );
