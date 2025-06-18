@@ -45,26 +45,26 @@ const relatedBlog = [
 const categoryData = [
   {
     title:
-      "An Anatomical Approach to Lower Face Rejuvenation Presented at the Minimally Invasive Plastic Surgery Symposium",
-    url: "https://www.k-health.com/news/articleView.html?idxno=81529",
+      "Comprehensive clinic overview, procedures, outcomes, and international patient services.",
+    url: "https://us-uk.bookimed.com/clinic/hershe-plastic-surgery-korea/",
+  },
+  {
+    title: "Hershe Plastic Surgery-Medical Departures",
+    url: "https://www.medicaldepartures.com/clinic/hershe-plastic-surgery",
   },
   {
     title:
-      "Latest Implant Techniques for Breast Tissue Preservation Highlighted at Motiva Symposium",
-    url: "https://www.medisobizanews.com/news/articleView.html?idxno=120765",
-  },
-  {
-    title: "Atelier Plastic Surgery: Where You Become a Work of Art",
-    url: "https://www.youtube.com/watch?v=bHgo_7HkzNM",
+      "Highlights luxurious one‑stop service, airport transfer, and thorough 1:1 consultation process.",
+    url: "https://www.whatclinic.com/cosmetic‑plastic‑surgery/south‑korea/seoul/hershe‑plastic‑surgery‑clinic",
   },
 ];
 
-export default function BlogDetails() {
-  pageTitle("Blog Details");
+export default function BlogDetails_HEER() {
+  pageTitle("HEER");
   return (
     <>
       <Section topMd={170} bottomMd={54} bottomLg={54}>
-        <Breadcrumb title="A Place Where You Become a Work of Art – Atelier Plastic Surgery" />
+        <Breadcrumb title="Timeless Beauty, Expertly Crafted: Discover HERSHE Plastic Surgery Korea" />
       </Section>
       <div className="container">
         {/* <div className="cs_blog_details_info">
@@ -97,7 +97,7 @@ export default function BlogDetails() {
         </div> */}
         <Spacing md="55" />
         <img
-          src={`${process.env.PUBLIC_URL}/images/blog/blog_details_1.jpeg`}
+          src={`${process.env.PUBLIC_URL}/images/blog/HEER.png`}
           alt="Blog Details"
           className="w-100 cs_radius_20"
         />
@@ -105,85 +105,71 @@ export default function BlogDetails() {
         <div className="row">
           <div className="col-lg-8">
             <div className="cs_blog_details">
-              <h2>What is Atelier Plastic Surgery?</h2>
+              <h2>What is HERSHE Plastic Surgery Korea?</h2>
               <p>
-                Atelier Plastic Surgery is a premium aesthetic clinic in Seoul,
-                South Korea, renowned for its artistic approach to beauty
-                enhancement. The clinic is dedicated to delivering
-                natural-looking and elegant results through a blend of medical
-                precision and aesthetic sensibility. <br />
-                <br />
-                With the philosophy of “Turning You Into a Work of Art,” Atelier
-                emphasizes individualized treatment plans tailored to each
-                patient’s unique features and goals.
+                HERSHE Plastic Surgery Korea is a distinguished aesthetic
+                medical center located in Cheongdam‑dong, Seoul. Established in
+                1992, HERSHE combines over 30 years of clinical experience with
+                cutting‑edge techniques to deliver natural and refined beauty
+                transformations. Led by board‑certified surgeons and an expert
+                care team, the clinic takes a personalized, one‑on‑one
+                approach—ensuring each patient’s goals are met with precision
+                and care.
               </p>
 
               <h2>Signature Services and Specialties</h2>
               <ol>
                 <li>
-                  <b>Dermal Filler Artistry:</b>
+                  <b>Anti‑Aging & Rejuvenation:</b>
                   <br />
-                  Atelier is highly regarded for its sophisticated filler
-                  techniques, particularly in areas such as the nose, under-eye,
-                  and jawline. Treatments focus on harmonizing facial
-                  proportions with minimal invasiveness and maximum naturalness.
+                  HERSHE offers patented stem‑cell therapies (including their
+                  proprietary approach), lasers, fillers, and thread lifts to
+                  restore youthful skin vitality.
                 </li>
                 <li>
-                  <b>Breast Aesthetic Surgery:</b>
+                  <b>Facial Contouring & Eye Procedures:</b>
                   <br />
-                  The clinic offers advanced breast lifting and augmentation
-                  procedures with minimal scarring and high aesthetic standards,
-                  guided by both technical expertise and artistic design.
+                  The clinic specializes in upper and lower blepharoplasty,
+                  facelift, rhinoplasty, facial fat grafting, and SMAS‑based
+                  lifts—intended for balanced, elegant results.
                 </li>
                 <li>
-                  <b>Facial Contouring & Balance:</b>
+                  <b>Body Sculpting & Breast Aesthetics:</b>
                   <br />
-                  Rather than altering appearances, Atelier aims to refine and
-                  enhance a patient’s innate beauty through customized facial
-                  contouring procedures.
+                  Services include liposuction, buttock lift (non‑surgical and
+                  surgical), tummy‑tuck, breast augmentation/lift/reduction, and
+                  body contouring.
                 </li>
                 <li>
-                  <b>Doctor-Centered Care:</b>
+                  <b>Premium Patient Experience:</b>
                   <br />
-                  Headed by Dr. Juyoung Ko, the clinic is known for its
-                  transparent consultations, clear communication, and a focus on
-                  long-term beauty planning, rather than one-time results.
+                  HERSHE emphasizes individualized consultations, private
+                  procedural rooms, dedicated after‑care (with personal recovery
+                  buzzers), English‑speaking coordinators, and seamless service
+                  from airport arrival to post‑op care :contentReference.
                 </li>
               </ol>
 
-              <h2>Patient Experience and Philosophy</h2>
+              <h2>Patient Journey and Philosophy</h2>
               <p>
-                At Atelier, beauty is seen as a form of personal expression. The
-                environment is elegant and calm, supporting patients through
-                every step of their aesthetic journey—from in-depth
-                consultations to follow-up care. The clinic avoids overly
-                artificial changes and instead pursues “invisible
-                beauty”—refined improvements that look effortless and true to
-                the patient’s character.
+                At HERSHE, beauty is viewed as a personal journey. From the
+                detailed initial consultation—where all procedures, prices, and
+                options are explained—to post‑op recovery in private rooms,
+                every step is designed for comfort and transparency. Their
+                philosophy focuses on natural enhancement rather than overt
+                transformation—an approach consistently echoed in positive
+                international patient reviews :contentReference.
               </p>
-
-              <blockquote
-                style={{
-                  backgroundImage: `url(${process.env.PUBLIC_URL}/images/blog/blog_details_2.jpeg)`,
-                }}
-              >
-                <p>
-                  “Treatments at Atelier Plastic Surgery are designed with both
-                  precision and artistry, often involving a personalized
-                  combination of advanced techniques and aesthetic insight.”
-                </p>
-              </blockquote>
 
               <h2>Conclusion</h2>
               <p>
-                Atelier Plastic Surgery is more than just a clinic—it is a space
-                where medicine and art meet. For those seeking sophisticated,
-                personalized aesthetic care in Korea, Atelier offers a trusted
-                and artistic solution. <br />
-                <br />
-                Whether it’s your first consultation or your next chapter in
-                self-confidence, Atelier is committed to helping you become your
-                best self—gracefully and naturally.
+                HERSHE Plastic Surgery Korea stands out as a holistic aesthetic
+                hub, uniting artistic skill, medical expertise, and
+                patient-first service. Ideal for both first-time visitors and
+                revisiting clients, the clinic offers a full range of cosmetic
+                surgery and rejuvenation with sophisticated, personalized
+                care—helping you look and feel your best, naturally and
+                confidently.
               </p>
             </div>
             {/* <Spacing md="85" />

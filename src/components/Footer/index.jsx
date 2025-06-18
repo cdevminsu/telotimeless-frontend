@@ -6,7 +6,7 @@ import MenuWidget from "../Widget/MenuWidget";
 import NewsletterStyle4 from "../Widget/NewsletterStyle4";
 const menuDataOne = [
   { title: "About Us", href: "/about" },
-  { title: "Partners", href: "/doctors" },
+  { title: "Hospitals", href: "/blog" },
   { title: "Appointment", href: "/appointments" },
 ];
 

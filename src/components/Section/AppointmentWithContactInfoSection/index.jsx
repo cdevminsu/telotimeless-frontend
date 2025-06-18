@@ -1,9 +1,12 @@
 import React from "react";
 import AppointmentForm from "../../AppointmentForm";
 const contactInfo = [
-  { title: "Phone", subTitle: "123-456-7890" },
-  { title: "Email Us", subTitle: "hellocallcenter@gmail.com" },
-  { title: "Our Location", subTitle: "123 Anywhere St., Any City, 12345" },
+  { title: "Phone", subTitle: "+82 1088698508" },
+  { title: "Email Us", subTitle: "sonadorBIK@gmail.com" },
+  {
+    title: "Our Location",
+    subTitle: "#815, 14, Dogok-ro 1-gil, Gangnam-gu, Seoul 06253, South Korea",
+  },
 ];
 
 export default function AppointmentWithContactInfoSection() {

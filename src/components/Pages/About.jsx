@@ -154,7 +154,7 @@ export default function About() {
       <BannerSectionStyle3
         bgUrl={`${process.env.PUBLIC_URL}/images/about/banner_bg.svg`}
         imgUrl={`${process.env.PUBLIC_URL}/images/about/banner_img.png`}
-        title="Telotimeless <br />K-Medical Curation Platform"
+        title="Telotimeless <br /> K-Medical Curation Platform"
         subTitle="We curate top Korean medical institutions to provide patients worldwide with safe, expert-guided care."
       />
       <Section topMd={200} topLg={150} topXl={110}>

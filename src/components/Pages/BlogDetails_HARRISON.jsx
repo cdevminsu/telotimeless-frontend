@@ -41,30 +41,29 @@ const relatedBlog = [
     href: "/blog/BANOBAGI",
   },
 ];
-
 const categoryData = [
   {
-    title:
-      "An Anatomical Approach to Lower Face Rejuvenation Presented at the Minimally Invasive Plastic Surgery Symposium",
-    url: "https://www.k-health.com/news/articleView.html?idxno=81529",
+    title: "Preparing for the Robotic Era in Spinal Treatment and Surgery",
+    url: "https://magazine.hankyung.com/business/article/202505020018b",
   },
   {
     title:
-      "Latest Implant Techniques for Breast Tissue Preservation Highlighted at Motiva Symposium",
-    url: "https://www.medisobizanews.com/news/articleView.html?idxno=120765",
+      "Posterior Endoscopic Cervical Discectomy: A Case Study from Harrison",
+    url: "http://www.hitnews.co.kr/news/articleView.html?idxno=62608",
   },
   {
-    title: "Atelier Plastic Surgery: Where You Become a Work of Art",
-    url: "https://www.youtube.com/watch?v=bHgo_7HkzNM",
+    title:
+      "There is Nothing in the World That Does Not Change” by Dr. Hyeun-Sung Kim",
+    url: "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=202505167523b",
   },
 ];
 
-export default function BlogDetails() {
-  pageTitle("Blog Details");
+export default function BlogDetails_HARRISON() {
+  pageTitle("HARRISON");
   return (
     <>
       <Section topMd={170} bottomMd={54} bottomLg={54}>
-        <Breadcrumb title="A Place Where You Become a Work of Art – Atelier Plastic Surgery" />
+        <Breadcrumb title="Advanced Minimally Invasive Spine Care at Harrison Spinartus Hospital" />
       </Section>
       <div className="container">
         {/* <div className="cs_blog_details_info">
@@ -97,7 +96,7 @@ export default function BlogDetails() {
         </div> */}
         <Spacing md="55" />
         <img
-          src={`${process.env.PUBLIC_URL}/images/blog/blog_details_1.jpeg`}
+          src={`${process.env.PUBLIC_URL}/images/blog/HARRISON.png`}
           alt="Blog Details"
           className="w-100 cs_radius_20"
         />
@@ -105,85 +104,72 @@ export default function BlogDetails() {
         <div className="row">
           <div className="col-lg-8">
             <div className="cs_blog_details">
-              <h2>What is Atelier Plastic Surgery?</h2>
+              <h2>What is Harrison Spinartus Hospital?</h2>
               <p>
-                Atelier Plastic Surgery is a premium aesthetic clinic in Seoul,
-                South Korea, renowned for its artistic approach to beauty
-                enhancement. The clinic is dedicated to delivering
-                natural-looking and elegant results through a blend of medical
-                precision and aesthetic sensibility. <br />
+                Harrison Spinartus Hospital is a specialized spinal care center
+                located in the heart of Seoul’s Gangnam district. Known for its
+                expertise in minimally invasive spine surgery, the hospital
+                provides advanced endoscopic and robotic-assisted procedures
+                that focus on reducing pain, minimizing recovery time, and
+                improving long-term patient outcomes. <br />
                 <br />
-                With the philosophy of “Turning You Into a Work of Art,” Atelier
-                emphasizes individualized treatment plans tailored to each
-                patient’s unique features and goals.
+                With a philosophy of “Precision in Motion,” Harrison offers
+                patient-centered care led by globally recognized neurosurgeons
+                and spine specialists.
               </p>
 
               <h2>Signature Services and Specialties</h2>
               <ol>
                 <li>
-                  <b>Dermal Filler Artistry:</b>
+                  <b>Endoscopic Spine Surgery:</b>
                   <br />
-                  Atelier is highly regarded for its sophisticated filler
-                  techniques, particularly in areas such as the nose, under-eye,
-                  and jawline. Treatments focus on harmonizing facial
-                  proportions with minimal invasiveness and maximum naturalness.
+                  Harrison is a pioneer in full endoscopic techniques for
+                  treating herniated discs and spinal stenosis. These procedures
+                  are performed through small incisions, resulting in faster
+                  recovery, minimal scarring, and reduced complications.
                 </li>
                 <li>
-                  <b>Breast Aesthetic Surgery:</b>
-                  <br />
-                  The clinic offers advanced breast lifting and augmentation
-                  procedures with minimal scarring and high aesthetic standards,
-                  guided by both technical expertise and artistic design.
+                  <b>Biportal Endoscopic Techniques:</b>
+                  <br />A cutting-edge approach that allows for a wider surgical
+                  field while preserving soft tissue, offering excellent
+                  outcomes in cervical, thoracic, and lumbar cases.
                 </li>
                 <li>
-                  <b>Facial Contouring & Balance:</b>
+                  <b>Robotic-Assisted Surgery:</b>
                   <br />
-                  Rather than altering appearances, Atelier aims to refine and
-                  enhance a patient’s innate beauty through customized facial
-                  contouring procedures.
+                  Harrison is preparing for the future of robotic-guided spinal
+                  procedures, enhancing precision and safety through advanced
+                  technology.
                 </li>
                 <li>
-                  <b>Doctor-Centered Care:</b>
+                  <b>International Patient Services:</b>
                   <br />
-                  Headed by Dr. Juyoung Ko, the clinic is known for its
-                  transparent consultations, clear communication, and a focus on
-                  long-term beauty planning, rather than one-time results.
+                  The hospital offers multilingual support, travel assistance,
+                  and personalized care programs for patients visiting from
+                  abroad.
                 </li>
               </ol>
 
               <h2>Patient Experience and Philosophy</h2>
               <p>
-                At Atelier, beauty is seen as a form of personal expression. The
-                environment is elegant and calm, supporting patients through
-                every step of their aesthetic journey—from in-depth
-                consultations to follow-up care. The clinic avoids overly
-                artificial changes and instead pursues “invisible
-                beauty”—refined improvements that look effortless and true to
-                the patient’s character.
+                Harrison believes that effective healing begins with trust. From
+                the first consultation to post-operative rehabilitation, the
+                hospital provides comprehensive care in a clean, modern, and
+                welcoming environment. Patients receive thorough diagnostic
+                evaluations, customized surgical plans, and attentive follow-up
+                to ensure long-term spine health.
               </p>
-
-              <blockquote
-                style={{
-                  backgroundImage: `url(${process.env.PUBLIC_URL}/images/blog/blog_details_2.jpeg)`,
-                }}
-              >
-                <p>
-                  “Treatments at Atelier Plastic Surgery are designed with both
-                  precision and artistry, often involving a personalized
-                  combination of advanced techniques and aesthetic insight.”
-                </p>
-              </blockquote>
 
               <h2>Conclusion</h2>
               <p>
-                Atelier Plastic Surgery is more than just a clinic—it is a space
-                where medicine and art meet. For those seeking sophisticated,
-                personalized aesthetic care in Korea, Atelier offers a trusted
-                and artistic solution. <br />
+                Harrison Spinartus Hospital combines medical innovation,
+                surgical expertise, and heartfelt service to deliver world-class
+                spinal care. Whether you're suffering from chronic back pain or
+                seeking a second opinion on surgery, Harrison offers a safe,
+                effective, and globally trusted solution. <br />
                 <br />
-                Whether it’s your first consultation or your next chapter in
-                self-confidence, Atelier is committed to helping you become your
-                best self—gracefully and naturally.
+                Regain mobility and rediscover life—with confidence, comfort,
+                and clarity.
               </p>
             </div>
             {/* <Spacing md="85" />

@@ -44,27 +44,25 @@ const relatedBlog = [
 
 const categoryData = [
   {
-    title:
-      "An Anatomical Approach to Lower Face Rejuvenation Presented at the Minimally Invasive Plastic Surgery Symposium",
-    url: "https://www.k-health.com/news/articleView.html?idxno=81529",
+    title: "JK Plastic Surgery Center – Top Clinic for International Patients",
+    url: "https://us-uk.bookimed.com/clinic/jk-plastic-surgery-center/",
   },
   {
-    title:
-      "Latest Implant Techniques for Breast Tissue Preservation Highlighted at Motiva Symposium",
-    url: "https://www.medisobizanews.com/news/articleView.html?idxno=120765",
+    title: "Accredited for Foreign Patient Excellence – JK Plastic Surgery",
+    url: "https://jkplastic.com/en/",
   },
   {
-    title: "Atelier Plastic Surgery: Where You Become a Work of Art",
-    url: "https://www.youtube.com/watch?v=bHgo_7HkzNM",
+    title: "JK Plastic Surgery Korea – Services & International Standards",
+    url: "https://mediglobus.com/clinic/jk-plastic-surgery-center/",
   },
 ];
 
-export default function BlogDetails() {
-  pageTitle("Blog Details");
+export default function BlogDetails_JK() {
+  pageTitle("JK");
   return (
     <>
       <Section topMd={170} bottomMd={54} bottomLg={54}>
-        <Breadcrumb title="A Place Where You Become a Work of Art – Atelier Plastic Surgery" />
+        <Breadcrumb title="Trusted Excellence in Global Aesthetics: JK Plastic Surgery Center" />
       </Section>
       <div className="container">
         {/* <div className="cs_blog_details_info">
@@ -97,7 +95,7 @@ export default function BlogDetails() {
         </div> */}
         <Spacing md="55" />
         <img
-          src={`${process.env.PUBLIC_URL}/images/blog/blog_details_1.jpeg`}
+          src={`${process.env.PUBLIC_URL}/images/blog/JK.png`}
           alt="Blog Details"
           className="w-100 cs_radius_20"
         />
@@ -105,85 +103,74 @@ export default function BlogDetails() {
         <div className="row">
           <div className="col-lg-8">
             <div className="cs_blog_details">
-              <h2>What is Atelier Plastic Surgery?</h2>
+              <h2>What is JK Plastic Surgery Center?</h2>
               <p>
-                Atelier Plastic Surgery is a premium aesthetic clinic in Seoul,
-                South Korea, renowned for its artistic approach to beauty
-                enhancement. The clinic is dedicated to delivering
-                natural-looking and elegant results through a blend of medical
-                precision and aesthetic sensibility. <br />
+                Established in 1998, JK Plastic Surgery Center is one of South
+                Korea’s premier aesthetic medical institutions, located in the
+                heart of Gangnam, Seoul. It is the first clinic in Korea
+                officially certified to treat international patients under the
+                Korean Accreditation Program for Hospitals Serving Foreign
+                Patients (KAHF, Permit No. 0001). <br />
                 <br />
-                With the philosophy of “Turning You Into a Work of Art,” Atelier
-                emphasizes individualized treatment plans tailored to each
-                patient’s unique features and goals.
+                With over 85,000 successful procedures and a perfect safety
+                record, JK is globally renowned for combining high-precision
+                surgery, luxury-level care, and personalized service designed
+                for both domestic and international clients.
               </p>
 
               <h2>Signature Services and Specialties</h2>
               <ol>
                 <li>
-                  <b>Dermal Filler Artistry:</b>
+                  <b>Facial & Body Aesthetic Surgery:</b>
                   <br />
-                  Atelier is highly regarded for its sophisticated filler
-                  techniques, particularly in areas such as the nose, under-eye,
-                  and jawline. Treatments focus on harmonizing facial
-                  proportions with minimal invasiveness and maximum naturalness.
+                  JK offers expert procedures in rhinoplasty, blepharoplasty,
+                  jaw contouring, breast augmentation, liposuction, tummy tucks,
+                  and more—tailored to each patient’s needs with a focus on
+                  natural-looking results.
                 </li>
                 <li>
-                  <b>Breast Aesthetic Surgery:</b>
+                  <b>Anti-Aging & Stem Cell Therapy:</b>
                   <br />
-                  The clinic offers advanced breast lifting and augmentation
-                  procedures with minimal scarring and high aesthetic standards,
-                  guided by both technical expertise and artistic design.
+                  The clinic features a dedicated wellness center with advanced
+                  stem-cell treatments, hyperbaric oxygen therapy, nutritional
+                  detox programs, and hair/scalp health care.
                 </li>
                 <li>
-                  <b>Facial Contouring & Balance:</b>
+                  <b>Premium International Patient Services:</b>
                   <br />
-                  Rather than altering appearances, Atelier aims to refine and
-                  enhance a patient’s innate beauty through customized facial
-                  contouring procedures.
+                  Patients enjoy multilingual consultations, 1:1 care
+                  coordination, luxury inpatient rooms, halal and vegan meals,
+                  airport pickup, and even optional Rolls-Royce transfers.
                 </li>
                 <li>
-                  <b>Doctor-Centered Care:</b>
+                  <b>Certified Safety and Global Accreditation:</b>
                   <br />
-                  Headed by Dr. Juyoung Ko, the clinic is known for its
-                  transparent consultations, clear communication, and a focus on
-                  long-term beauty planning, rather than one-time results.
+                  JK maintains international-grade sterilization and anesthesia
+                  systems, with a full-time anesthesiology team and 24/7 nursing
+                  staff, earning commendations from the Korean Ministry of
+                  Health.
                 </li>
               </ol>
 
               <h2>Patient Experience and Philosophy</h2>
               <p>
-                At Atelier, beauty is seen as a form of personal expression. The
-                environment is elegant and calm, supporting patients through
-                every step of their aesthetic journey—from in-depth
-                consultations to follow-up care. The clinic avoids overly
-                artificial changes and instead pursues “invisible
-                beauty”—refined improvements that look effortless and true to
-                the patient’s character.
+                JK prioritizes comfort, transparency, and trust throughout the
+                entire patient journey. From initial consultations in private
+                rooms to attentive aftercare following surgery, every detail is
+                designed for a seamless and supportive experience. Patients can
+                even receive post-op care remotely after returning home.
               </p>
-
-              <blockquote
-                style={{
-                  backgroundImage: `url(${process.env.PUBLIC_URL}/images/blog/blog_details_2.jpeg)`,
-                }}
-              >
-                <p>
-                  “Treatments at Atelier Plastic Surgery are designed with both
-                  precision and artistry, often involving a personalized
-                  combination of advanced techniques and aesthetic insight.”
-                </p>
-              </blockquote>
 
               <h2>Conclusion</h2>
               <p>
-                Atelier Plastic Surgery is more than just a clinic—it is a space
-                where medicine and art meet. For those seeking sophisticated,
-                personalized aesthetic care in Korea, Atelier offers a trusted
-                and artistic solution. <br />
+                JK Plastic Surgery Center offers a unique blend of cutting-edge
+                medical technology, luxury hospitality, and personalized beauty
+                solutions. As a government-certified leader in medical tourism,
+                JK is a trusted destination for anyone seeking transformative
+                aesthetic care with world-class standards. <br />
                 <br />
-                Whether it’s your first consultation or your next chapter in
-                self-confidence, Atelier is committed to helping you become your
-                best self—gracefully and naturally.
+                Experience excellence where safety meets sophistication—only at
+                JK.
               </p>
             </div>
             {/* <Spacing md="85" />

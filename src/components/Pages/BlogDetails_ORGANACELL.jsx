@@ -44,27 +44,25 @@ const relatedBlog = [
 
 const categoryData = [
   {
-    title:
-      "An Anatomical Approach to Lower Face Rejuvenation Presented at the Minimally Invasive Plastic Surgery Symposium",
-    url: "https://www.k-health.com/news/articleView.html?idxno=81529",
+    title: "Discover Premium Skincare at OGANACELL DERMATOLOGY CLINIC",
+    url: "https://oganalotteworldtower.com/oganacell-dermatology-clinic/?utm_source=chatgpt.com",
   },
   {
-    title:
-      "Latest Implant Techniques for Breast Tissue Preservation Highlighted at Motiva Symposium",
-    url: "https://www.medisobizanews.com/news/articleView.html?idxno=120765",
+    title: "Fluid Injection Therapy: Enhance Your Inner Beauty",
+    url: "https://oganaglobal.com/en/2024/?utm_source=chatgpt.com",
   },
   {
-    title: "Atelier Plastic Surgery: Where You Become a Work of Art",
-    url: "https://www.youtube.com/watch?v=bHgo_7HkzNM",
+    title: "Oganacell Dermatology Clinic – Cheongdam Branch Overview",
+    url: "https://www.koreaclinicguide.com/clinic/ogana-cell-dermatology-clinic-cheongdam?utm_source=chatgpt.com",
   },
 ];
 
-export default function BlogDetails() {
-  pageTitle("Blog Details");
+export default function BlogDetails_ORGANACELL() {
+  pageTitle("ORGANACELL");
   return (
     <>
       <Section topMd={170} bottomMd={54} bottomLg={54}>
-        <Breadcrumb title="A Place Where You Become a Work of Art – Atelier Plastic Surgery" />
+        <Breadcrumb title="Revolutionizing Skin Health: Discover Oganacell Dermatology Clinic" />
       </Section>
       <div className="container">
         {/* <div className="cs_blog_details_info">
@@ -97,7 +95,7 @@ export default function BlogDetails() {
         </div> */}
         <Spacing md="55" />
         <img
-          src={`${process.env.PUBLIC_URL}/images/blog/blog_details_1.jpeg`}
+          src={`${process.env.PUBLIC_URL}/images/blog/ORGANACELL.png`}
           alt="Blog Details"
           className="w-100 cs_radius_20"
         />
@@ -105,85 +103,64 @@ export default function BlogDetails() {
         <div className="row">
           <div className="col-lg-8">
             <div className="cs_blog_details">
-              <h2>What is Atelier Plastic Surgery?</h2>
+              <h2>What is Oganacell Dermatology Clinic?</h2>
               <p>
-                Atelier Plastic Surgery is a premium aesthetic clinic in Seoul,
-                South Korea, renowned for its artistic approach to beauty
-                enhancement. The clinic is dedicated to delivering
-                natural-looking and elegant results through a blend of medical
-                precision and aesthetic sensibility. <br />
-                <br />
-                With the philosophy of “Turning You Into a Work of Art,” Atelier
-                emphasizes individualized treatment plans tailored to each
-                patient’s unique features and goals.
+                Oganacell is a premium dermatology clinic located in
+                Gangnam—drawing attention with its flagship branch inside the
+                iconic Lotte World Tower. The clinic offers “skin revision,” a
+                personalized, data-driven approach to restoring one’s natural
+                skin quality through tailored treatments and advanced
+                diagnostics.
               </p>
 
               <h2>Signature Services and Specialties</h2>
               <ol>
                 <li>
-                  <b>Dermal Filler Artistry:</b>
+                  <b>1:1 Personalized Skin Revision:</b>
                   <br />
-                  Atelier is highly regarded for its sophisticated filler
-                  techniques, particularly in areas such as the nose, under-eye,
-                  and jawline. Treatments focus on harmonizing facial
-                  proportions with minimal invasiveness and maximum naturalness.
+                  Every treatment is customized based on detailed skin analysis,
+                  with dermatologists prescribing individualized plans combining
+                  lasers, injectables, and cosmeceuticals .
                 </li>
                 <li>
-                  <b>Breast Aesthetic Surgery:</b>
+                  <b>Elasticity & Laser Therapies:</b>
                   <br />
-                  The clinic offers advanced breast lifting and augmentation
-                  procedures with minimal scarring and high aesthetic standards,
-                  guided by both technical expertise and artistic design.
+                  Offers Thermage FLX, Ulthera Primus, ONDA, InMode, and other
+                  energy-based modalities designed to tighten, rejuvenate, and
+                  treat pigmentation.
                 </li>
                 <li>
-                  <b>Facial Contouring & Balance:</b>
+                  <b>Advanced Injectables & Fluid Therapy:</b>
                   <br />
-                  Rather than altering appearances, Atelier aims to refine and
-                  enhance a patient’s innate beauty through customized facial
-                  contouring procedures.
+                  Services include Botox, fillers, Sculptra, plus Fluid
+                  Injection Therapy under the “Inner Beauty Program” to enhance
+                  skin from within.
                 </li>
                 <li>
-                  <b>Doctor-Centered Care:</b>
+                  <b>Stem Cell & Scalp Correction:</b>
                   <br />
-                  Headed by Dr. Juyoung Ko, the clinic is known for its
-                  transparent consultations, clear communication, and a focus on
-                  long-term beauty planning, rather than one-time results.
+                  Incorporates regenerative options like Rejuran Healer,
+                  stem-cell boosters, fat-dissolving injections, and hair-loss
+                  restoration treatments .
                 </li>
               </ol>
 
               <h2>Patient Experience and Philosophy</h2>
               <p>
-                At Atelier, beauty is seen as a form of personal expression. The
-                environment is elegant and calm, supporting patients through
-                every step of their aesthetic journey—from in-depth
-                consultations to follow-up care. The clinic avoids overly
-                artificial changes and instead pursues “invisible
-                beauty”—refined improvements that look effortless and true to
-                the patient’s character.
+                Oganacell embodies a luxury-meets-medical atmosphere, with
+                English, Chinese, and Japanese multilingual staff, private
+                treatment spaces, and a comfortable environment tailored to
+                global patients—all while emphasizing safe, reliable procedures
+                backed by ten years of clinical data .
               </p>
-
-              <blockquote
-                style={{
-                  backgroundImage: `url(${process.env.PUBLIC_URL}/images/blog/blog_details_2.jpeg)`,
-                }}
-              >
-                <p>
-                  “Treatments at Atelier Plastic Surgery are designed with both
-                  precision and artistry, often involving a personalized
-                  combination of advanced techniques and aesthetic insight.”
-                </p>
-              </blockquote>
 
               <h2>Conclusion</h2>
               <p>
-                Atelier Plastic Surgery is more than just a clinic—it is a space
-                where medicine and art meet. For those seeking sophisticated,
-                personalized aesthetic care in Korea, Atelier offers a trusted
-                and artistic solution. <br />
-                <br />
-                Whether it’s your first consultation or your next chapter in
-                self-confidence, Atelier is committed to helping you become your
-                best self—gracefully and naturally.
+                Oganacell Dermatology Clinic brings together personalized care,
+                high-end technology, and evidence-based treatments in a
+                luxurious setting. Ideal for individuals seeking deep, lasting
+                skin transformation guided by expert dermatologists—in a
+                refined, patient-centric clinic in the heart of Seoul.
               </p>
             </div>
             {/* <Spacing md="85" />

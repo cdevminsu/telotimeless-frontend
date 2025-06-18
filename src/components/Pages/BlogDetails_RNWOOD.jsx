@@ -45,26 +45,26 @@ const relatedBlog = [
 const categoryData = [
   {
     title:
-      "An Anatomical Approach to Lower Face Rejuvenation Presented at the Minimally Invasive Plastic Surgery Symposium",
-    url: "https://www.k-health.com/news/articleView.html?idxno=81529",
+      "RNWOOD Plastic Surgery Center for Facial Rejuvenation in Gangnam‑Gu, Seoul, South Korea",
+    url: "https://www.whatclinic.com/cosmetic-plastic-surgery/south-korea/seoul/gangnam-gu/rnwood-plastic-surgery?utm_source=chatgpt.com",
+  },
+  {
+    title: "Dr. Ryu – RNWood Plastic Surgery",
+    url: "https://www.reddit.com/r/SeoulPlasticSurgery/comments/1kgonxh/dr_ryu_rnwood_plastic_surgery/?utm_source=chatgpt.com",
   },
   {
     title:
-      "Latest Implant Techniques for Breast Tissue Preservation Highlighted at Motiva Symposium",
-    url: "https://www.medisobizanews.com/news/articleView.html?idxno=120765",
-  },
-  {
-    title: "Atelier Plastic Surgery: Where You Become a Work of Art",
-    url: "https://www.youtube.com/watch?v=bHgo_7HkzNM",
+      "post‑op, the pain was minimal, and the aftercare was impressive: hair washing, red/blue light therapy, and oxygen chamber treatments…",
+    url: "https://www.reddit.com/r/SeoulPlasticSurgery/comments/1kgonxh/dr_ryu_rnwood_plastic_surgery/?utm_source=chatgpt.com",
   },
 ];
 
-export default function BlogDetails() {
-  pageTitle("Blog Details");
+export default function BlogDetails_RNWOOD() {
+  pageTitle("RNWOOD");
   return (
     <>
       <Section topMd={170} bottomMd={54} bottomLg={54}>
-        <Breadcrumb title="A Place Where You Become a Work of Art – Atelier Plastic Surgery" />
+        <Breadcrumb title="Redefining Facial Rejuvenation: RNWOOD Plastic Surgery Center" />
       </Section>
       <div className="container">
         {/* <div className="cs_blog_details_info">
@@ -97,7 +97,7 @@ export default function BlogDetails() {
         </div> */}
         <Spacing md="55" />
         <img
-          src={`${process.env.PUBLIC_URL}/images/blog/blog_details_1.jpeg`}
+          src={`${process.env.PUBLIC_URL}/images/blog/RNWOOD.png`}
           alt="Blog Details"
           className="w-100 cs_radius_20"
         />
@@ -105,85 +105,66 @@ export default function BlogDetails() {
         <div className="row">
           <div className="col-lg-8">
             <div className="cs_blog_details">
-              <h2>What is Atelier Plastic Surgery?</h2>
+              <h2>What is RNWOOD Plastic Surgery Center?</h2>
               <p>
-                Atelier Plastic Surgery is a premium aesthetic clinic in Seoul,
-                South Korea, renowned for its artistic approach to beauty
-                enhancement. The clinic is dedicated to delivering
-                natural-looking and elegant results through a blend of medical
-                precision and aesthetic sensibility. <br />
-                <br />
-                With the philosophy of “Turning You Into a Work of Art,” Atelier
-                emphasizes individualized treatment plans tailored to each
-                patient’s unique features and goals.
+                RNWOOD Plastic Surgery, located in Apgujeong, Gangnam-gu, Seoul,
+                is a boutique facial rejuvenation clinic led by board-certified
+                surgeon Dr. Min‑Hee Ryu. Dr. Ryu is internationally recognized
+                for his expertise in deep-plane facelifts, cadaver-based anatomy
+                training, and contributions to aesthetic surgery academia . The
+                clinic emphasizes precision, personalized care, and advanced
+                aftercare, attracting both domestic and global clients seeking
+                natural yet transformative results.
               </p>
 
               <h2>Signature Services and Specialties</h2>
               <ol>
                 <li>
-                  <b>Dermal Filler Artistry:</b>
+                  <b>Deep Plane Facelift & Neck Lift:</b>
                   <br />
-                  Atelier is highly regarded for its sophisticated filler
-                  techniques, particularly in areas such as the nose, under-eye,
-                  and jawline. Treatments focus on harmonizing facial
-                  proportions with minimal invasiveness and maximum naturalness.
+                  Highly specialized procedures performed by Dr. Ryu, offering
+                  minimal downtime and long-lasting outcomes with focus on
+                  structural rejuvenation.
                 </li>
                 <li>
-                  <b>Breast Aesthetic Surgery:</b>
+                  <b>Brow Lift & Eyelid Surgery:</b>
                   <br />
-                  The clinic offers advanced breast lifting and augmentation
-                  procedures with minimal scarring and high aesthetic standards,
-                  guided by both technical expertise and artistic design.
+                  Aesthetic enhancements employing advanced techniques to
+                  refresh and harmonize facial balance.
                 </li>
                 <li>
-                  <b>Facial Contouring & Balance:</b>
+                  <b>Fat Transfer & Submentoplasty:</b>
                   <br />
-                  Rather than altering appearances, Atelier aims to refine and
-                  enhance a patient’s innate beauty through customized facial
-                  contouring procedures.
+                  Complementary techniques to restore volume and refine contours
+                  in a single-session approach for holistic facial rejuvenation.
                 </li>
                 <li>
-                  <b>Doctor-Centered Care:</b>
+                  <b>Luxury Post‑Op Care:</b>
                   <br />
-                  Headed by Dr. Juyoung Ko, the clinic is known for its
-                  transparent consultations, clear communication, and a focus on
-                  long-term beauty planning, rather than one-time results.
+                  Includes services like hyperbaric oxygen therapy, light-based
+                  wound care, daily hair washing, and dedicated staff
+                  support—ensuring a comfortable recovery experience .
                 </li>
               </ol>
 
               <h2>Patient Experience and Philosophy</h2>
               <p>
-                At Atelier, beauty is seen as a form of personal expression. The
-                environment is elegant and calm, supporting patients through
-                every step of their aesthetic journey—from in-depth
-                consultations to follow-up care. The clinic avoids overly
-                artificial changes and instead pursues “invisible
-                beauty”—refined improvements that look effortless and true to
-                the patient’s character.
+                RNWOOD offers a warm, personalized environment built around
+                trust and academic excellence. Patients frequently highlight
+                seamless communication—from initial online consults to post-op
+                care—as well as the attentive, non-pressured atmosphere . The
+                clinic manages logistics, lunges into recovery protocols, and
+                provides multilingual support for international patients.
               </p>
-
-              <blockquote
-                style={{
-                  backgroundImage: `url(${process.env.PUBLIC_URL}/images/blog/blog_details_2.jpeg)`,
-                }}
-              >
-                <p>
-                  “Treatments at Atelier Plastic Surgery are designed with both
-                  precision and artistry, often involving a personalized
-                  combination of advanced techniques and aesthetic insight.”
-                </p>
-              </blockquote>
 
               <h2>Conclusion</h2>
               <p>
-                Atelier Plastic Surgery is more than just a clinic—it is a space
-                where medicine and art meet. For those seeking sophisticated,
-                personalized aesthetic care in Korea, Atelier offers a trusted
-                and artistic solution. <br />
-                <br />
-                Whether it’s your first consultation or your next chapter in
-                self-confidence, Atelier is committed to helping you become your
-                best self—gracefully and naturally.
+                RNWOOD Plastic Surgery stands out as an elite clinic for
+                individuals seeking deep-plane facelifts and facial rejuvenation
+                with minimal downtime. With Dr. Ryu’s surgical mastery, academic
+                leadership, and a patient-centric care model, RNWOOD offers a
+                refined antidote to impersonal high-volume clinics—delivering
+                natural, elegant, and enduring results.
               </p>
             </div>
             {/* <Spacing md="85" />

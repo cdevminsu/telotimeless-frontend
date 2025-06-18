@@ -44,27 +44,26 @@ const relatedBlog = [
 
 const categoryData = [
   {
-    title:
-      "An Anatomical Approach to Lower Face Rejuvenation Presented at the Minimally Invasive Plastic Surgery Symposium",
-    url: "https://www.k-health.com/news/articleView.html?idxno=81529",
+    title: "7 Foreigner-Friendly Skin Clinics to Go to in Seoul",
+    url: "https://www.reddit.com/r/koreatravel/comments/1hycxut/skin_clinics_recommendations_warnings/?utm_source=chatgpt.com",
+  },
+  {
+    title: "I Went to South Korea for a Week of Cutting-Edge Skin Treatments",
+    url: "https://www.allure.com/story/best-beauty-treatments-seoul-south-korea?utm_source=chatgpt.com",
   },
   {
     title:
-      "Latest Implant Techniques for Breast Tissue Preservation Highlighted at Motiva Symposium",
-    url: "https://www.medisobizanews.com/news/articleView.html?idxno=120765",
-  },
-  {
-    title: "Atelier Plastic Surgery: Where You Become a Work of Art",
-    url: "https://www.youtube.com/watch?v=bHgo_7HkzNM",
+      "Inside Korea's Intricate Approach to Treating Fine Lines and Wrinkles",
+    url: "https://www.allure.com/story/how-to-treat-fine-lines-wrinkles-in-korea?utm_source=chatgpt.com",
   },
 ];
 
-export default function BlogDetails() {
-  pageTitle("Blog Details");
+export default function BlogDetails_THEHEAL() {
+  pageTitle("THEHEAL");
   return (
     <>
       <Section topMd={170} bottomMd={54} bottomLg={54}>
-        <Breadcrumb title="A Place Where You Become a Work of Art – Atelier Plastic Surgery" />
+        <Breadcrumb title="Revitalize & Restore: The HEAL Dermatology Clinic, Sinsa" />
       </Section>
       <div className="container">
         {/* <div className="cs_blog_details_info">
@@ -97,7 +96,7 @@ export default function BlogDetails() {
         </div> */}
         <Spacing md="55" />
         <img
-          src={`${process.env.PUBLIC_URL}/images/blog/blog_details_1.jpeg`}
+          src={`${process.env.PUBLIC_URL}/images/blog/THEHEAL.png`}
           alt="Blog Details"
           className="w-100 cs_radius_20"
         />
@@ -105,85 +104,69 @@ export default function BlogDetails() {
         <div className="row">
           <div className="col-lg-8">
             <div className="cs_blog_details">
-              <h2>What is Atelier Plastic Surgery?</h2>
+              <h2>What is The HEAL Dermatology Clinic?</h2>
               <p>
-                Atelier Plastic Surgery is a premium aesthetic clinic in Seoul,
-                South Korea, renowned for its artistic approach to beauty
-                enhancement. The clinic is dedicated to delivering
-                natural-looking and elegant results through a blend of medical
-                precision and aesthetic sensibility. <br />
-                <br />
-                With the philosophy of “Turning You Into a Work of Art,” Atelier
-                emphasizes individualized treatment plans tailored to each
-                patient’s unique features and goals.
+                The HEAL Dermatology Clinic is a high-end dermatology practice
+                located on the 7th floor of Sinsa Square, just a 5‑minute walk
+                from Sinsa Station (Lines 3 & Shinbundang), Gangnam, Seoul.
+                Expertly combining medical dermatology with aesthetic skin care,
+                the clinic provides advanced treatments—ranging from acne and
+                pigmentation management to anti-aging injectables and laser
+                rejuvenation—all under the guidance of board-certified
+                specialists, including founder Dr. Park Ju‑Hyuk, a leader in
+                both clinical and cosmetic dermatology.
               </p>
 
               <h2>Signature Services and Specialties</h2>
               <ol>
                 <li>
-                  <b>Dermal Filler Artistry:</b>
+                  <b>Comprehensive Skin Rejuvenation:</b>
                   <br />
-                  Atelier is highly regarded for its sophisticated filler
-                  techniques, particularly in areas such as the nose, under-eye,
-                  and jawline. Treatments focus on harmonizing facial
-                  proportions with minimal invasiveness and maximum naturalness.
+                  Services include fractional CO₂ lasers, IPL, HydraFacial,
+                  chemical peels, microneedling, and PRP for glow, texture, and
+                  tone enhancement.
                 </li>
                 <li>
-                  <b>Breast Aesthetic Surgery:</b>
+                  <b>Injectables & Anti-Aging:</b>
                   <br />
-                  The clinic offers advanced breast lifting and augmentation
-                  procedures with minimal scarring and high aesthetic standards,
-                  guided by both technical expertise and artistic design.
+                  Botox and dermal fillers for fine lines, jawline sculpting,
+                  under-eye refreshment, double-chin correction, and subtle
+                  facial contouring.
                 </li>
                 <li>
-                  <b>Facial Contouring & Balance:</b>
+                  <b>Medical Dermatology:</b>
                   <br />
-                  Rather than altering appearances, Atelier aims to refine and
-                  enhance a patient’s innate beauty through customized facial
-                  contouring procedures.
+                  Diagnosis and treatment for acne, psoriasis, eczema, hives,
+                  fungal infections, pigmentation disorders, skin cancer
+                  screenings, and nail issues.
                 </li>
                 <li>
-                  <b>Doctor-Centered Care:</b>
+                  <b>Advanced Lifting & Tightening:</b>
                   <br />
-                  Headed by Dr. Juyoung Ko, the clinic is known for its
-                  transparent consultations, clear communication, and a focus on
-                  long-term beauty planning, rather than one-time results.
+                  Non-surgical lifts using Thermage, Ultherapy, thread lifts,
+                  HIFU, and laser tightening for sagging skin and improved
+                  elasticity.
                 </li>
               </ol>
 
               <h2>Patient Experience and Philosophy</h2>
               <p>
-                At Atelier, beauty is seen as a form of personal expression. The
-                environment is elegant and calm, supporting patients through
-                every step of their aesthetic journey—from in-depth
-                consultations to follow-up care. The clinic avoids overly
-                artificial changes and instead pursues “invisible
-                beauty”—refined improvements that look effortless and true to
-                the patient’s character.
+                With English and Korean-speaking staff, private consultation
+                rooms, and a patient-first approach, The HEAL Clinic is known
+                for delivering tailored care—from initial skin analysis to
+                ongoing follow-up. The environment is designed to be soothing,
+                discreet, and personalized.
               </p>
-
-              <blockquote
-                style={{
-                  backgroundImage: `url(${process.env.PUBLIC_URL}/images/blog/blog_details_2.jpeg)`,
-                }}
-              >
-                <p>
-                  “Treatments at Atelier Plastic Surgery are designed with both
-                  precision and artistry, often involving a personalized
-                  combination of advanced techniques and aesthetic insight.”
-                </p>
-              </blockquote>
 
               <h2>Conclusion</h2>
               <p>
-                Atelier Plastic Surgery is more than just a clinic—it is a space
-                where medicine and art meet. For those seeking sophisticated,
-                personalized aesthetic care in Korea, Atelier offers a trusted
-                and artistic solution. <br />
-                <br />
-                Whether it’s your first consultation or your next chapter in
-                self-confidence, Atelier is committed to helping you become your
-                best self—gracefully and naturally.
+                The HEAL Dermatology Clinic merges medical expertise, aesthetic
+                precision, and compassionate care. Serving both domestic and
+                international clients, the clinic offers a full spectrum of
+                skincare solutions—from clinical treatment to cosmetic
+                enhancement—centering on individual needs and natural results.
+                Ideal for those seeking a trusted, expert-driven approach to
+                healthy, beautiful skin in the heart of Gangnam.
               </p>
             </div>
             {/* <Spacing md="85" />

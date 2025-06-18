@@ -14,6 +14,7 @@ import Appointments from "./components/Pages/Appointments";
 import Departments from "./components/Pages/Departments";
 import DepartmentDetails from "./components/Pages/DepartmentDetails";
 import BlogDetails from "./components/Pages/BlogDetails";
+import BlogDetails_RNWOOD from "./components/Pages/BlogDetails_RNWOOD";
 import DoctorDetails from "./components/Pages/DoctorDetails";
 import PricingPlan from "./components/Pages/PricingPlan";
 import Gallery from "./components/Pages/Gallery";
@@ -24,6 +25,13 @@ import ErrorPage from "./components/Pages/ErrorPage";
 import Layout5 from "./components/Layout/Layout5";
 import HomeStyle5 from "./components/Pages/HomeStyle5";
 import HomeStyle6 from "./components/Pages/HomeStyle6";
+import BlogDetails_JK from "./components/Pages/BlogDetails_JK";
+import BlogDetails_BANOBAGI from "./components/Pages/BlogDetails_BANOBAGI";
+import BlogDetails_HARRISON from "./components/Pages/BlogDetails_HARRISON";
+import BlogDetails_HEER from "./components/Pages/BlogDetails_HEER";
+import BlogDetails_KWANGDONG from "./components/Pages/BlogDetails_KWANGDONG";
+import BlogDetails_ORGANACELL from "./components/Pages/BlogDetails_ORGANACELL";
+import BlogDetails_THEHEAL from "./components/Pages/BlogDetails_THEHEAL";
 
 function App() {
   const { pathname } = useLocation();
@@ -39,7 +47,15 @@ function App() {
         <Route path="doctors" element={<Doctors />} />
         <Route path="doctors/:doctorId" element={<DoctorDetails />} />
         <Route path="blog" element={<Blog />} />
-        <Route path="blog/:blogId" element={<BlogDetails />} />
+        <Route path="blog/ATELIER" element={<BlogDetails />} />
+        <Route path="blog/JK" element={<BlogDetails_JK />} />
+        <Route path="blog/BANOBAGI" element={<BlogDetails_BANOBAGI />} />
+        <Route path="blog/HARRISON" element={<BlogDetails_HARRISON />} />
+        <Route path="blog/HEER" element={<BlogDetails_HEER />} />
+        <Route path="blog/KWANGDONG" element={<BlogDetails_KWANGDONG />} />
+        <Route path="blog/ORGANACELL" element={<BlogDetails_ORGANACELL />} />
+        <Route path="blog/THEHEAL" element={<BlogDetails_THEHEAL />} />
+        <Route path="blog/RNWOOD" element={<BlogDetails_RNWOOD />} />
         <Route path="appointments" element={<Appointments />} />
         <Route path="departments" element={<Departments />} />
         <Route

@@ -1,36 +1,36 @@
-import React from 'react';
-import BannerSectionStyle7 from '../Section/BannerSection/BannerSectionStyle7';
-import Section from '../Section';
-import AppointmentSection from '../Section/AppointmentSection';
-import BreadcrumbStyle2 from '../Breadcrumb/BreadcrumbStyle2';
-import AboutSectionStyle2 from '../Section/AboutSection/AboutSectionStyle2';
-import FeaturesSectionStyle3 from '../Section/FeaturesSection/FeaturesSectionStyle3';
-import TeamSectionStyle3 from '../Section/TeamSection/TeamSectionStyle3';
-import { pageTitle } from '../../helpers/PageTitle';
+import React from "react";
+import BannerSectionStyle7 from "../Section/BannerSection/BannerSectionStyle7";
+import Section from "../Section";
+import AppointmentSection from "../Section/AppointmentSection";
+import BreadcrumbStyle2 from "../Breadcrumb/BreadcrumbStyle2";
+import AboutSectionStyle2 from "../Section/AboutSection/AboutSectionStyle2";
+import FeaturesSectionStyle3 from "../Section/FeaturesSection/FeaturesSectionStyle3";
+import TeamSectionStyle3 from "../Section/TeamSection/TeamSectionStyle3";
+import { pageTitle } from "../../helpers/PageTitle";
 
 const featureData = [
   {
-    title: 'Inquiry Submission',
+    title: "Inquiry Submission",
     subTitle:
-      'The booking process begins with a simple consultation request, where you share your symptoms and treatment preferences through our online form or chatbot.',
+      "The booking process begins with a simple consultation request, where you share your symptoms and treatment preferences through our online form or chatbot.",
     iconUrl: `${process.env.PUBLIC_URL}/images/departments/icon_9.svg`,
   },
   {
-    title: 'Expert Matching',
+    title: "Expert Matching",
     subTitle:
-      'A certified GHKOL consultant carefully reviews your case and connects you with the most suitable hospital and specialist in South Korea.',
+      "A certified GHKOL consultant carefully reviews your case and connects you with the most suitable hospital and specialist in South Korea.",
     iconUrl: `${process.env.PUBLIC_URL}/images/departments/icon_10.svg`,
   },
   {
-    title: 'Confirm Schedule',
+    title: "Confirm Schedule",
     subTitle:
-      'Once matched, our team organizes your medical appointments, interpreter services, and travel arrangements for a smooth experience.',
+      "Once matched, our team organizes your medical appointments, interpreter services, and travel arrangements for a smooth experience.",
     iconUrl: `${process.env.PUBLIC_URL}/images/departments/icon_11.svg`,
   },
   {
-    title: 'Visit and Treatment',
+    title: "Visit and Treatment",
     subTitle:
-      'You arrive in Korea for your scheduled procedures, supported by our staff and partners throughout your medical journey and stay.',
+      "You arrive in Korea for your scheduled procedures, supported by our staff and partners throughout your medical journey and stay.",
     iconUrl: `${process.env.PUBLIC_URL}/images/departments/icon_12.svg`,
   },
 ];
@@ -38,79 +38,78 @@ const featureData = [
 const doctorData = [
   {
     imgUrl: `${process.env.PUBLIC_URL}/images/departments/related_doctor_1.jpeg`,
-    name: 'Dr. Susan Bones, MD',
-    designation: 'Board-certified Pediatrician',
+    name: "Dr. Susan Bones, MD",
+    designation: "Board-certified Pediatrician",
     description:
-      'With experience in managing complex <br />medical conditions in children',
+      "With experience in managing complex <br />medical conditions in children",
     social: [
-      { icon: 'fa6-brands:facebook-f', href: '/about' },
-      { icon: 'fa6-brands:linkedin-in', href: '/about' },
-      { icon: 'fa6-brands:twitter', href: '/about' },
+      { icon: "fa6-brands:facebook-f", href: "/about" },
+      { icon: "fa6-brands:linkedin-in", href: "/about" },
+      { icon: "fa6-brands:twitter", href: "/about" },
     ],
-    availableUrl: '/',
-    callUrl: '/',
-    chatUrl: '/',
-    btnText: 'Booking',
-    btnUrl: '/appointments',
+    availableUrl: "/",
+    callUrl: "/",
+    chatUrl: "/",
+    btnText: "Booking",
+    btnUrl: "/appointments",
   },
   {
     imgUrl: `${process.env.PUBLIC_URL}/images/departments/related_doctor_1.jpeg`,
-    name: 'Dr. Susan Bones, MD',
-    designation: 'Board-certified Pediatrician',
+    name: "Dr. Susan Bones, MD",
+    designation: "Board-certified Pediatrician",
     description:
-      'With experience in managing complex <br />medical conditions in children',
+      "With experience in managing complex <br />medical conditions in children",
     social: [
-      { icon: 'fa6-brands:facebook-f', href: '/about' },
-      { icon: 'fa6-brands:linkedin-in', href: '/about' },
-      { icon: 'fa6-brands:twitter', href: '/about' },
+      { icon: "fa6-brands:facebook-f", href: "/about" },
+      { icon: "fa6-brands:linkedin-in", href: "/about" },
+      { icon: "fa6-brands:twitter", href: "/about" },
     ],
-    availableUrl: '/',
-    callUrl: '/',
-    chatUrl: '/',
-    btnText: 'Booking',
-    btnUrl: '/',
+    availableUrl: "/",
+    callUrl: "/",
+    chatUrl: "/",
+    btnText: "Booking",
+    btnUrl: "/",
   },
   {
     imgUrl: `${process.env.PUBLIC_URL}/images/departments/related_doctor_1.jpeg`,
-    name: 'Dr. Susan Bones, MD',
-    designation: 'Board-certified Pediatrician',
+    name: "Dr. Susan Bones, MD",
+    designation: "Board-certified Pediatrician",
     description:
-      'With experience in managing complex <br />medical conditions in children',
+      "With experience in managing complex <br />medical conditions in children",
     social: [
-      { icon: 'fa6-brands:facebook-f', href: '/about' },
-      { icon: 'fa6-brands:linkedin-in', href: '/about' },
-      { icon: 'fa6-brands:twitter', href: '/about' },
+      { icon: "fa6-brands:facebook-f", href: "/about" },
+      { icon: "fa6-brands:linkedin-in", href: "/about" },
+      { icon: "fa6-brands:twitter", href: "/about" },
     ],
-    availableUrl: '/',
-    callUrl: '/',
-    chatUrl: '/',
-    btnText: 'Booking',
-    btnUrl: '/',
+    availableUrl: "/",
+    callUrl: "/",
+    chatUrl: "/",
+    btnText: "Booking",
+    btnUrl: "/",
   },
   {
     imgUrl: `${process.env.PUBLIC_URL}/images/departments/related_doctor_1.jpeg`,
-    name: 'Dr. Susan Bones, MD',
-    designation: 'Board-certified Pediatrician',
+    name: "Dr. Susan Bones, MD",
+    designation: "Board-certified Pediatrician",
     description:
-      'With experience in managing complex <br />medical conditions in children',
+      "With experience in managing complex <br />medical conditions in children",
     social: [
-      { icon: 'fa6-brands:facebook-f', href: '/about' },
-      { icon: 'fa6-brands:linkedin-in', href: '/about' },
-      { icon: 'fa6-brands:twitter', href: '/about' },
+      { icon: "fa6-brands:facebook-f", href: "/about" },
+      { icon: "fa6-brands:linkedin-in", href: "/about" },
+      { icon: "fa6-brands:twitter", href: "/about" },
     ],
-    availableUrl: '/',
-    callUrl: '/',
-    chatUrl: '/',
-    btnText: 'Booking',
-    btnUrl: '/',
+    availableUrl: "/",
+    callUrl: "/",
+    chatUrl: "/",
+    btnText: "Booking",
+    btnUrl: "/",
   },
 ];
 
 export default function DepartmentDetails() {
-  pageTitle('Department Details');
+  pageTitle("Department Details");
   return (
     <>
-      <BreadcrumbStyle2 />
       <Section topMd={135} topLg={100} topXl={100}>
         <AboutSectionStyle2
           title="About Telotimeless"

@@ -6,12 +6,11 @@ import Breadcrumb from "../Breadcrumb";
 import { pageTitle } from "../../helpers/PageTitle";
 const blogData = [
   {
-    title:
-      "Atelier",
+    title: "Atelier",
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_1.jpeg`,
     date: "Plastic Surgery",
     btnText: "Learn More",
-    href: "/blog/blog-details",
+    href: "/blog/ATELIER",
     socialShare: true,
   },
   {
@@ -19,7 +18,7 @@ const blogData = [
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_2.jpeg`,
     date: "Plastic Surgery",
     btnText: "Learn More",
-    href: "/blog/blog-details",
+    href: "/blog/RNWOOD",
     socialShare: true,
   },
   {
@@ -27,7 +26,7 @@ const blogData = [
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_3.jpeg`,
     date: "Plastic Surgery",
     btnText: "Learn More",
-    href: "/blog/blog-details",
+    href: "/blog/JK",
     socialShare: true,
   },
   {
@@ -35,7 +34,7 @@ const blogData = [
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_4.jpeg`,
     date: "Plastic Surgery",
     btnText: "Learn More",
-    href: "/blog/blog-details",
+    href: "/blog/BANOBAGI",
     socialShare: true,
   },
   {
@@ -43,7 +42,7 @@ const blogData = [
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_5.jpeg`,
     date: "Dermatology",
     btnText: "Learn More",
-    href: "/blog/blog-details",
+    href: "/blog/ORGANACELL",
     socialShare: true,
   },
   {
@@ -51,7 +50,7 @@ const blogData = [
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_6.jpeg`,
     date: "Dermatology",
     btnText: "Learn More",
-    href: "/blog/blog-details",
+    href: "/blog/THEHEAL",
     socialShare: true,
   },
   {
@@ -59,7 +58,7 @@ const blogData = [
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_7.jpeg`,
     date: "Dermatology",
     btnText: "Learn More",
-    href: "/blog/blog-details",
+    href: "/blog/HEER",
     socialShare: true,
   },
   {
@@ -67,7 +66,7 @@ const blogData = [
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_8.jpeg`,
     date: "Feb 26",
     btnText: "Learn More",
-    href: "/blog/blog-details",
+    href: "/blog/KWANGDONG",
     socialShare: true,
   },
   {
@@ -75,7 +74,7 @@ const blogData = [
     thumbUrl: `${process.env.PUBLIC_URL}/images/blog/post_9.jpeg`,
     date: "Feb 25",
     btnText: "Learn More",
-    href: "/blog/blog-details",
+    href: "/blog/HARRISON",
     socialShare: true,
   },
 ];

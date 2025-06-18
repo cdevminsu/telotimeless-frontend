@@ -45,26 +45,26 @@ const relatedBlog = [
 const categoryData = [
   {
     title:
-      "An Anatomical Approach to Lower Face Rejuvenation Presented at the Minimally Invasive Plastic Surgery Symposium",
-    url: "https://www.k-health.com/news/articleView.html?idxno=81529",
+      "Kwangdong Hospital of Traditional Korean Medicine – Bookimed Profile",
+    url: "https://us-uk.bookimed.com/clinic/kwangdong-hospital-of-traditional-korean-medicine/?utm_source=chatgpt.com",
+  },
+  {
+    title: "Medical Korea: Kwangdong Hospital Traditional Korean Medicine",
+    url: "https://www.medicalkorea.or.kr/en/mostvisitedmedicalinstitutions/view?medicalProviderNo=10115&utm_source=chatgpt.com",
   },
   {
     title:
-      "Latest Implant Techniques for Breast Tissue Preservation Highlighted at Motiva Symposium",
-    url: "https://www.medisobizanews.com/news/articleView.html?idxno=120765",
-  },
-  {
-    title: "Atelier Plastic Surgery: Where You Become a Work of Art",
-    url: "https://www.youtube.com/watch?v=bHgo_7HkzNM",
+      "How I rebooted my beauty regimen in South Korea… At Kwangdong Hospital of Traditional Korean Medicine",
+    url: "https://www.washingtonpost.com/lifestyle/travel/how-i-rebooted-my-beauty-regimen-in-south-korea-a-country-that-takes-skin-care-seriously/2017/06/29/ead56364-4f8f-11e7-be25-3a519335381c_story.html?utm_source=chatgpt.com",
   },
 ];
 
-export default function BlogDetails() {
-  pageTitle("Blog Details");
+export default function BlogDetails_KWANGDONG() {
+  pageTitle("KWANGDONG");
   return (
     <>
       <Section topMd={170} bottomMd={54} bottomLg={54}>
-        <Breadcrumb title="A Place Where You Become a Work of Art – Atelier Plastic Surgery" />
+        <Breadcrumb title="East Meets West in Wellness: E‑Kwangdong Oriental Medicine Hospital" />
       </Section>
       <div className="container">
         {/* <div className="cs_blog_details_info">
@@ -97,7 +97,7 @@ export default function BlogDetails() {
         </div> */}
         <Spacing md="55" />
         <img
-          src={`${process.env.PUBLIC_URL}/images/blog/blog_details_1.jpeg`}
+          src={`${process.env.PUBLIC_URL}/images/blog/KWANGDONG.png`}
           alt="Blog Details"
           className="w-100 cs_radius_20"
         />
@@ -105,85 +105,70 @@ export default function BlogDetails() {
         <div className="row">
           <div className="col-lg-8">
             <div className="cs_blog_details">
-              <h2>What is Atelier Plastic Surgery?</h2>
+              <h2>What is E‑Kwangdong Hospital?</h2>
               <p>
-                Atelier Plastic Surgery is a premium aesthetic clinic in Seoul,
-                South Korea, renowned for its artistic approach to beauty
-                enhancement. The clinic is dedicated to delivering
-                natural-looking and elegant results through a blend of medical
-                precision and aesthetic sensibility. <br />
-                <br />
-                With the philosophy of “Turning You Into a Work of Art,” Atelier
-                emphasizes individualized treatment plans tailored to each
-                patient’s unique features and goals.
+                E‑Kwangdong Hospital of Traditional Korean Medicine, founded in
+                1994 and based in Gangnam, Seoul, is a renowned integrative
+                healthcare center. Combining scientific principles with Eastern
+                medicinal expertise, it offers a wide range of services—from
+                acupuncture and herbal therapy to wellness aesthetics and weight
+                management—delivered by experienced specialists and supported by
+                robust diagnostic systems. With strong government recognition
+                and excellence in international patient service, E‑Kwangdong is
+                a trusted destination for both health care and cosmetic wellness
+                seekers.
               </p>
 
               <h2>Signature Services and Specialties</h2>
               <ol>
                 <li>
-                  <b>Dermal Filler Artistry:</b>
+                  <b>Holistic Aesthetic Medicine:</b>
                   <br />
-                  Atelier is highly regarded for its sophisticated filler
-                  techniques, particularly in areas such as the nose, under-eye,
-                  and jawline. Treatments focus on harmonizing facial
-                  proportions with minimal invasiveness and maximum naturalness.
+                  Includes cosmetic facial acupuncture, anti-aging treatments,
+                  collagen and elasticity boosters, detox wraps, and skin-tone
+                  improvement therapies blending Eastern techniques with modern
+                  science.
                 </li>
                 <li>
-                  <b>Breast Aesthetic Surgery:</b>
+                  <b>Wellness & Weight Management:</b>
                   <br />
-                  The clinic offers advanced breast lifting and augmentation
-                  procedures with minimal scarring and high aesthetic standards,
-                  guided by both technical expertise and artistic design.
+                  Personalized herbal medicine regimens and detox programs
+                  support sustainable weight loss, immunity enhancement, and
+                  fatigue recovery.
                 </li>
                 <li>
-                  <b>Facial Contouring & Balance:</b>
+                  <b>Integrative East–West Care:</b>
                   <br />
-                  Rather than altering appearances, Atelier aims to refine and
-                  enhance a patient’s innate beauty through customized facial
-                  contouring procedures.
+                  With systems in place for MRIs and Western diagnostics,
+                  E‑Kwangdong designs collaborative treatment plans that combine
+                  Korean medicine with conventional therapies .
                 </li>
                 <li>
-                  <b>Doctor-Centered Care:</b>
+                  <b>International Patient Focus:</b>
                   <br />
-                  Headed by Dr. Juyoung Ko, the clinic is known for its
-                  transparent consultations, clear communication, and a focus on
-                  long-term beauty planning, rather than one-time results.
+                  The hospital maintains 1:1 interpretation services (English,
+                  Japanese, Chinese, Russian, Mongolian), private rooms, and
+                  VIP-level coordination—ideal for foreign visitors .
                 </li>
               </ol>
 
               <h2>Patient Experience and Philosophy</h2>
               <p>
-                At Atelier, beauty is seen as a form of personal expression. The
-                environment is elegant and calm, supporting patients through
-                every step of their aesthetic journey—from in-depth
-                consultations to follow-up care. The clinic avoids overly
-                artificial changes and instead pursues “invisible
-                beauty”—refined improvements that look effortless and true to
-                the patient’s character.
+                E‑Kwangdong’s philosophy centers on nurturing inherent
+                balance—addressing health, appearance, and vitality together.
+                Treatments are tailored through thorough assessments and
+                delivered in private, multilingual-supportive settings, ensuring
+                comfort, confidentiality, and personalized healing.
               </p>
-
-              <blockquote
-                style={{
-                  backgroundImage: `url(${process.env.PUBLIC_URL}/images/blog/blog_details_2.jpeg)`,
-                }}
-              >
-                <p>
-                  “Treatments at Atelier Plastic Surgery are designed with both
-                  precision and artistry, often involving a personalized
-                  combination of advanced techniques and aesthetic insight.”
-                </p>
-              </blockquote>
 
               <h2>Conclusion</h2>
               <p>
-                Atelier Plastic Surgery is more than just a clinic—it is a space
-                where medicine and art meet. For those seeking sophisticated,
-                personalized aesthetic care in Korea, Atelier offers a trusted
-                and artistic solution. <br />
-                <br />
-                Whether it’s your first consultation or your next chapter in
-                self-confidence, Atelier is committed to helping you become your
-                best self—gracefully and naturally.
+                E‑Kwangdong Hospital blends the best of Korean and Western
+                medicine to offer a unique approach to aesthetic wellness and
+                integrated health care. Whether you seek cosmetic rejuvenation,
+                wellness support, or East–West fusion therapies, this hospital
+                offers trustworthy, accredited, and culturally sensitive
+                care—rooted in decades of expertise and public recognition.
               </p>
             </div>
             {/* <Spacing md="85" />
