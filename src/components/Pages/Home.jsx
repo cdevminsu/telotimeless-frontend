@@ -51,16 +51,17 @@ const brandData = [
   { imgUrl: `${process.env.PUBLIC_URL}/images/brand_5.png`, imgAlt: "Brand" },
   { imgUrl: `${process.env.PUBLIC_URL}/images/brand_6.png`, imgAlt: "Brand" },
   { imgUrl: `${process.env.PUBLIC_URL}/images/brand_7.png`, imgAlt: "Brand" },
-  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_8.png`, imgAlt: "Brand" },
-  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_9.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_17.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_15.png`, imgAlt: "Brand" },
   { imgUrl: `${process.env.PUBLIC_URL}/images/brand_10.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/woori.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_9.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_8.png`, imgAlt: "Brand" },
   { imgUrl: `${process.env.PUBLIC_URL}/images/brand_11.png`, imgAlt: "Brand" },
   { imgUrl: `${process.env.PUBLIC_URL}/images/brand_12.png`, imgAlt: "Brand" },
+  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_16.png`, imgAlt: "Brand" },
   { imgUrl: `${process.env.PUBLIC_URL}/images/brand_13.png`, imgAlt: "Brand" },
   { imgUrl: `${process.env.PUBLIC_URL}/images/brand_14.png`, imgAlt: "Brand" },
-  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_15.png`, imgAlt: "Brand" },
-  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_16.png`, imgAlt: "Brand" },
-  { imgUrl: `${process.env.PUBLIC_URL}/images/brand_17.png`, imgAlt: "Brand" },
 ];
 const faqData = [
   {
